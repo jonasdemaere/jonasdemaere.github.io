@@ -1,0 +1,999 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> wineries | Jonas De Maere </title> <meta name="author" content="Jonas De Maere"> <meta name="description" content="A personal log of wineries I have visited around the world."> <meta name="keywords" content="Jonas De Maere, Blog, Personal Website, Resume, Vintaflow"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="stylesheet" href="/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://jonasdemaere.github.io/wineries/"> <script src="/assets/js/theme.js?v=5fea5159b787642c1bbc1f334d60f883"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" integrity="sha256-QZFpF9DkpabUBLoCc7fQJVCmtag/LaVAfAkUJSfuNyY=" crossorigin="anonymous"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Jonas</span> De Maere </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">resume </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/appearances/">appearances </a> </li> <li class="nav-item active"> <a class="nav-link" href="/wineries/">wineries <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/contact/">contact </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">wineries</h1> <p class="post-description">A personal log of wineries I have visited around the world.</p> </header> <article> <p>An ongoing record of wineries I’ve had the pleasure of visiting. Click a row to highlight it on the map, or click a pin to find the winery in the table.</p> <script id="wineries-data" type="application/json">
+  [
+    
+    {
+      "name": "Château Pédesclaux",
+      "country": "France",
+      "region": "Pauillac, Bordeaux",
+      "date_visited": "2023",
+      "lat": 45.2119822,
+      "lng": -0.7566515,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château Pavie",
+      "country": "France",
+      "region": "Saint-Émilion, Bordeaux",
+      "date_visited": "2023",
+      "lat": 44.8830416,
+      "lng": -0.1507935,
+      "notes": ""
+    },
+    
+    {
+      "name": "Clos Fourtet",
+      "country": "France",
+      "region": "Saint-Émilion, Bordeaux",
+      "date_visited": "2023",
+      "lat": 44.8944191,
+      "lng": -0.158131,
+      "notes": ""
+    },
+    
+    {
+      "name": "Villemaurine",
+      "country": "France",
+      "region": "Saint-Émilion, Bordeaux",
+      "date_visited": "",
+      "lat": 44.895873,
+      "lng": -0.152566,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château d'Arche",
+      "country": "France",
+      "region": "Sauternes, Bordeaux",
+      "date_visited": "2023",
+      "lat": 44.5376452,
+      "lng": -0.3436673,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château Lafon-Rochet",
+      "country": "France",
+      "region": "Saint-Estèphe, Bordeaux",
+      "date_visited": "2023",
+      "lat": 45.2293874,
+      "lng": -0.7877969,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château du Pavillon",
+      "country": "France",
+      "region": "Canon-Fronsac, Bordeaux",
+      "date_visited": "",
+      "lat": 44.9240982,
+      "lng": -0.2821775,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château de La Dauphine",
+      "country": "France",
+      "region": "Fronsac, Bordeaux",
+      "date_visited": "",
+      "lat": 44.9242073,
+      "lng": -0.2747612,
+      "notes": ""
+    },
+    
+    {
+      "name": "Vignobles Ponty",
+      "country": "France",
+      "region": "Fronsac, Bordeaux",
+      "date_visited": "",
+      "lat": 44.9209112,
+      "lng": -0.2759169,
+      "notes": ""
+    },
+    
+    {
+      "name": "Petrus",
+      "country": "France",
+      "region": "Pomerol, Bordeaux",
+      "date_visited": "",
+      "lat": 44.9305925,
+      "lng": -0.1928082,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château Kirwan",
+      "country": "France",
+      "region": "Margaux, Bordeaux",
+      "date_visited": "",
+      "lat": 45.0271596,
+      "lng": -0.6580819,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château La Verrière",
+      "country": "France",
+      "region": "Entre-Deux-Mers, Bordeaux",
+      "date_visited": "2017",
+      "lat": 44.7469126,
+      "lng": 0.1698999,
+      "notes": ""
+    },
+    
+    {
+      "name": "La Commanderie du Bardelet",
+      "country": "France",
+      "region": "Entre-Deux-Mers, Bordeaux",
+      "date_visited": "2017",
+      "lat": 44.7616485,
+      "lng": 0.0030153,
+      "notes": ""
+    },
+    
+    {
+      "name": "Les Vignerons Réunis de Monségur",
+      "country": "France",
+      "region": "Entre-Deux-Mers, Bordeaux",
+      "date_visited": "2017",
+      "lat": 44.6570383,
+      "lng": 0.07306,
+      "notes": ""
+    },
+    
+    {
+      "name": "Chateau Grand Verdus",
+      "country": "France",
+      "region": "Bordeaux Supérieur",
+      "date_visited": "2017",
+      "lat": 44.7942222,
+      "lng": -0.395881,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château de Latresne",
+      "country": "France",
+      "region": "Bordeaux",
+      "date_visited": "2017",
+      "lat": 44.779974,
+      "lng": -0.491589,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château Lafitte",
+      "country": "France",
+      "region": "Bordeaux",
+      "date_visited": "2017",
+      "lat": 44.8845214,
+      "lng": -0.478322,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château Dutruch Grand Poujeaux",
+      "country": "France",
+      "region": "Moulis-en-Médoc, Bordeaux",
+      "date_visited": "2017",
+      "lat": 45.0760296,
+      "lng": -0.7435861,
+      "notes": ""
+    },
+    
+    {
+      "name": "Château Fonréaud",
+      "country": "France",
+      "region": "Listrac-Médoc, Bordeaux",
+      "date_visited": "2017",
+      "lat": 45.058259,
+      "lng": -0.797217,
+      "notes": ""
+    },
+    
+    {
+      "name": "Maison Galhaud - Caves du Manoir",
+      "country": "France",
+      "region": "Saint-Émilion, Bordeaux",
+      "date_visited": "2017",
+      "lat": 44.8948449,
+      "lng": -0.1550146,
+      "notes": ""
+    },
+    
+    {
+      "name": "Wolfberger - Cave Eguisheim",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.0421092,
+      "lng": 7.3100975,
+      "notes": ""
+    },
+    
+    {
+      "name": "Engel Fernand et Fils",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.2193617,
+      "lng": 7.3634327,
+      "notes": ""
+    },
+    
+    {
+      "name": "Domaine Blanck André et ses Fils",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.1356034,
+      "lng": 7.2881566,
+      "notes": ""
+    },
+    
+    {
+      "name": "Cave Jean Geiler",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.0983476,
+      "lng": 7.3025836,
+      "notes": ""
+    },
+    
+    {
+      "name": "Domaines Schlumberger",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 47.912089,
+      "lng": 7.206304,
+      "notes": ""
+    },
+    
+    {
+      "name": "Domaine Marcel Deiss",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.2048303,
+      "lng": 7.3563385,
+      "notes": ""
+    },
+    
+    {
+      "name": "Domaine Josmeyer",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.0740772,
+      "lng": 7.2855265,
+      "notes": ""
+    },
+    
+    {
+      "name": "Castle of the Brotherhood Saint Etienne",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.1351261,
+      "lng": 7.2884641,
+      "notes": ""
+    },
+    
+    {
+      "name": "Maison Hugel",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.1668625,
+      "lng": 7.2974822,
+      "notes": ""
+    },
+    
+    {
+      "name": "Arthur Metz",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.6221769,
+      "lng": 7.4839214,
+      "notes": ""
+    },
+    
+    {
+      "name": "Vins d'Alsace Meyer-Krumb",
+      "country": "France",
+      "region": "Alsace",
+      "date_visited": "",
+      "lat": 48.132497,
+      "lng": 7.3036905,
+      "notes": ""
+    },
+    
+    {
+      "name": "Champagne Pierre Gimonnet et Fils",
+      "country": "France",
+      "region": "Champagne",
+      "date_visited": "",
+      "lat": 48.998794,
+      "lng": 3.9663972,
+      "notes": ""
+    },
+    
+    {
+      "name": "Champagne Caillez Lemaire",
+      "country": "France",
+      "region": "Champagne",
+      "date_visited": "",
+      "lat": 49.0689094,
+      "lng": 3.8823303,
+      "notes": ""
+    },
+    
+    {
+      "name": "Champagne Bollinger",
+      "country": "France",
+      "region": "Champagne",
+      "date_visited": "",
+      "lat": 49.0538571,
+      "lng": 4.0077952,
+      "notes": ""
+    },
+    
+    {
+      "name": "Vignoble Blanchard - Domaine de la Proutière",
+      "country": "France",
+      "region": "Muscadet, Loire Valley",
+      "date_visited": "2017",
+      "lat": 47.117877,
+      "lng": -1.2922947,
+      "notes": ""
+    },
+    
+    {
+      "name": "Cortes de Cima",
+      "country": "Portugal",
+      "region": "Alentejo",
+      "date_visited": "",
+      "lat": 38.151679,
+      "lng": -7.723474,
+      "notes": ""
+    },
+    
+    {
+      "name": "Herdade do Esporão",
+      "country": "Portugal",
+      "region": "Alentejo",
+      "date_visited": "",
+      "lat": 38.3798375,
+      "lng": -7.5606719,
+      "notes": ""
+    },
+    
+    {
+      "name": "Casa-Museu José Maria Da Fonseca",
+      "country": "Portugal",
+      "region": "Setúbal Peninsula",
+      "date_visited": "",
+      "lat": 38.5181278,
+      "lng": -9.0154333,
+      "notes": ""
+    },
+    
+    {
+      "name": "Domaine Skouras",
+      "country": "Greece",
+      "region": "Nemea, Peloponnese",
+      "date_visited": "",
+      "lat": 37.689635,
+      "lng": 22.654737,
+      "notes": ""
+    },
+    
+    {
+      "name": "Lafazanis S.A.",
+      "country": "Greece",
+      "region": "Nemea, Peloponnese",
+      "date_visited": "",
+      "lat": 37.81366,
+      "lng": 22.765443,
+      "notes": ""
+    },
+    
+    {
+      "name": "Gaia Wines",
+      "country": "Greece",
+      "region": "Nemea, Peloponnese",
+      "date_visited": "",
+      "lat": 37.856124,
+      "lng": 22.670579,
+      "notes": ""
+    },
+    
+    {
+      "name": "Zacharias Winery",
+      "country": "Greece",
+      "region": "Nemea, Peloponnese",
+      "date_visited": "",
+      "lat": 37.837046,
+      "lng": 22.6504975,
+      "notes": ""
+    },
+    
+    {
+      "name": "Semeli Estate",
+      "country": "Greece",
+      "region": "Nemea, Peloponnese",
+      "date_visited": "",
+      "lat": 37.871198,
+      "lng": 22.6794165,
+      "notes": ""
+    },
+    
+    {
+      "name": "Lafkiotis S.A.",
+      "country": "Greece",
+      "region": "Nemea, Peloponnese",
+      "date_visited": "",
+      "lat": 37.8201564,
+      "lng": 22.747245,
+      "notes": ""
+    },
+    
+    {
+      "name": "Bodegas Campo Viejo",
+      "country": "Spain",
+      "region": "Rioja",
+      "date_visited": "",
+      "lat": 42.4716454,
+      "lng": -2.4798028,
+      "notes": ""
+    },
+    
+    {
+      "name": "Bodegas Ysios",
+      "country": "Spain",
+      "region": "Rioja Alavesa",
+      "date_visited": "",
+      "lat": 42.5688228,
+      "lng": -2.5907558,
+      "notes": ""
+    },
+    
+    {
+      "name": "Bodegas Osborne",
+      "country": "Spain",
+      "region": "Jerez, Andalusia",
+      "date_visited": "",
+      "lat": 36.5950006,
+      "lng": -6.2291224,
+      "notes": ""
+    },
+    
+    {
+      "name": "Gonzalez Byass",
+      "country": "Spain",
+      "region": "Jerez, Andalusia",
+      "date_visited": "",
+      "lat": 36.6812828,
+      "lng": -6.1412532,
+      "notes": ""
+    },
+    
+    {
+      "name": "Bodegas Williams \u0026 Humbert",
+      "country": "Spain",
+      "region": "Jerez, Andalusia",
+      "date_visited": "",
+      "lat": 36.6698507,
+      "lng": -6.1548563,
+      "notes": ""
+    },
+    
+    {
+      "name": "Bodegas Lustau",
+      "country": "Spain",
+      "region": "Jerez, Andalusia",
+      "date_visited": "",
+      "lat": 36.6841269,
+      "lng": -6.1308264,
+      "notes": ""
+    },
+    
+    {
+      "name": "Viña La Canariera",
+      "country": "Spain",
+      "region": "Jerez, Andalusia",
+      "date_visited": "",
+      "lat": 36.7366981,
+      "lng": -6.1272501,
+      "notes": ""
+    },
+    
+    {
+      "name": "Caves Codorniu",
+      "country": "Spain",
+      "region": "Penedès, Catalonia",
+      "date_visited": "",
+      "lat": 41.4336955,
+      "lng": 1.7968728,
+      "notes": ""
+    },
+    
+    {
+      "name": "Família Torres",
+      "country": "Spain",
+      "region": "Penedès, Catalonia",
+      "date_visited": "",
+      "lat": 41.3497911,
+      "lng": 1.6654973,
+      "notes": ""
+    },
+    
+    {
+      "name": "Familia Torres - Vardon Kennett",
+      "country": "Spain",
+      "region": "Penedès, Catalonia",
+      "date_visited": "",
+      "lat": 41.483331,
+      "lng": 1.680972,
+      "notes": ""
+    },
+    
+    {
+      "name": "Bisol",
+      "country": "Italy",
+      "region": "Prosecco, Veneto",
+      "date_visited": "",
+      "lat": 45.8993319,
+      "lng": 12.040383,
+      "notes": ""
+    },
+    
+    {
+      "name": "Meneghetti Wine Hotel \u0026 Winery",
+      "country": "Croatia",
+      "region": "Istria",
+      "date_visited": "",
+      "lat": 45.0074875,
+      "lng": 13.7449757,
+      "notes": ""
+    },
+    
+    {
+      "name": "Weingut Feiler-Artinger",
+      "country": "Austria",
+      "region": "Rust, Burgenland",
+      "date_visited": "",
+      "lat": 47.8011581,
+      "lng": 16.6746661,
+      "notes": ""
+    },
+    
+    {
+      "name": "Weingut Lackner-Tinnacher",
+      "country": "Austria",
+      "region": "South Styria",
+      "date_visited": "",
+      "lat": 46.6961642,
+      "lng": 15.5395883,
+      "notes": ""
+    },
+    
+    {
+      "name": "Domäne Wachau",
+      "country": "Austria",
+      "region": "Wachau",
+      "date_visited": "",
+      "lat": 48.3920656,
+      "lng": 15.5273111,
+      "notes": ""
+    },
+    
+    {
+      "name": "Winery Csetvei",
+      "country": "Hungary",
+      "region": "Mór",
+      "date_visited": "",
+      "lat": 47.375531,
+      "lng": 18.2165501,
+      "notes": ""
+    },
+    
+    {
+      "name": "Carpinus Winery",
+      "country": "Hungary",
+      "region": "Tokaj",
+      "date_visited": "",
+      "lat": 48.1740513,
+      "lng": 21.3565771,
+      "notes": ""
+    },
+    
+    {
+      "name": "Juhász Testvérek Pincészete",
+      "country": "Hungary",
+      "region": "Eger",
+      "date_visited": "",
+      "lat": 47.8900099,
+      "lng": 20.3585254,
+      "notes": ""
+    },
+    
+    {
+      "name": "Patricius Borház",
+      "country": "Hungary",
+      "region": "Tokaj",
+      "date_visited": "",
+      "lat": 48.1916867,
+      "lng": 21.3608551,
+      "notes": ""
+    },
+    
+    {
+      "name": "Szepsy Pince",
+      "country": "Hungary",
+      "region": "Tokaj",
+      "date_visited": "",
+      "lat": 48.1918875,
+      "lng": 21.2801754,
+      "notes": ""
+    },
+    
+    {
+      "name": "Staffelter Hof",
+      "country": "Germany",
+      "region": "Mosel",
+      "date_visited": "",
+      "lat": 49.9767468,
+      "lng": 7.0794498,
+      "notes": ""
+    },
+    
+    {
+      "name": "Weingut Müllen Martin",
+      "country": "Germany",
+      "region": "Mosel",
+      "date_visited": "",
+      "lat": 49.9517128,
+      "lng": 7.1133262,
+      "notes": ""
+    },
+    
+    {
+      "name": "Von Winning Winery",
+      "country": "Germany",
+      "region": "Palatinate (Pfalz)",
+      "date_visited": "",
+      "lat": 49.4106226,
+      "lng": 8.1863799,
+      "notes": ""
+    },
+    
+    {
+      "name": "Wijndomein Entre-Deux-Monts",
+      "country": "Belgium",
+      "region": "West Flanders",
+      "date_visited": "",
+      "lat": 50.784743,
+      "lng": 2.75242,
+      "notes": ""
+    },
+    
+    {
+      "name": "Wijngoed Monteberg",
+      "country": "Belgium",
+      "region": "West Flanders",
+      "date_visited": "",
+      "lat": 50.7668146,
+      "lng": 2.8015183,
+      "notes": ""
+    },
+    
+    {
+      "name": "Ruffus (Vignoble des Agaises)",
+      "country": "Belgium",
+      "region": "Hainaut",
+      "date_visited": "",
+      "lat": 50.3890348,
+      "lng": 4.0536181,
+      "notes": ""
+    },
+    
+    {
+      "name": "Chardonnay Meerdael",
+      "country": "Belgium",
+      "region": "Flemish Brabant",
+      "date_visited": "",
+      "lat": 50.8202913,
+      "lng": 4.6762866,
+      "notes": ""
+    },
+    
+    {
+      "name": "Genoels-Elderen Wine Castle",
+      "country": "Belgium",
+      "region": "Limburg",
+      "date_visited": "",
+      "lat": 50.8043482,
+      "lng": 5.5353284,
+      "notes": ""
+    },
+    
+    {
+      "name": "Villa Yustina Winery",
+      "country": "Bulgaria",
+      "region": "Thracian Valley",
+      "date_visited": "",
+      "lat": 42.0399229,
+      "lng": 24.5189846,
+      "notes": ""
+    },
+    
+    {
+      "name": "Inkerman",
+      "country": "Ukraine",
+      "region": "Crimea",
+      "date_visited": "",
+      "lat": 44.6186368,
+      "lng": 33.6059169,
+      "notes": ""
+    },
+    
+    {
+      "name": "Shabo",
+      "country": "Ukraine",
+      "region": "Odessa",
+      "date_visited": "",
+      "lat": 46.1282187,
+      "lng": 30.384612,
+      "notes": ""
+    },
+    
+    {
+      "name": "Vulcănești Winery",
+      "country": "Moldova",
+      "region": "Cahul",
+      "date_visited": "",
+      "lat": 45.6832246,
+      "lng": 28.3990532,
+      "notes": ""
+    },
+    
+    {
+      "name": "MacMurray Ranch",
+      "country": "United States",
+      "region": "Russian River Valley, Sonoma",
+      "date_visited": "",
+      "lat": 38.52189,
+      "lng": -122.897302,
+      "notes": ""
+    },
+    
+    {
+      "name": "Ram's Gate Winery",
+      "country": "United States",
+      "region": "Carneros, Sonoma",
+      "date_visited": "",
+      "lat": 38.1744606,
+      "lng": -122.4503658,
+      "notes": ""
+    },
+    
+    {
+      "name": "Rodney Strong Vineyards",
+      "country": "United States",
+      "region": "Russian River Valley, Sonoma",
+      "date_visited": "",
+      "lat": 38.5732861,
+      "lng": -122.8439611,
+      "notes": ""
+    },
+    
+    {
+      "name": "DeLoach Vineyards",
+      "country": "United States",
+      "region": "Russian River Valley, Sonoma",
+      "date_visited": "",
+      "lat": 38.4624782,
+      "lng": -122.8200162,
+      "notes": ""
+    },
+    
+    {
+      "name": "Black Stallion Estate Winery",
+      "country": "United States",
+      "region": "Oak Knoll, Napa Valley",
+      "date_visited": "",
+      "lat": 38.3598318,
+      "lng": -122.2906388,
+      "notes": ""
+    },
+    
+    {
+      "name": "The Prisoner Wine Company",
+      "country": "United States",
+      "region": "Napa Valley",
+      "date_visited": "",
+      "lat": 38.4745088,
+      "lng": -122.4320594,
+      "notes": ""
+    },
+    
+    {
+      "name": "Orin Swift Cellars",
+      "country": "United States",
+      "region": "St. Helena, Napa Valley",
+      "date_visited": "",
+      "lat": 38.5044442,
+      "lng": -122.4693466,
+      "notes": ""
+    },
+    
+    {
+      "name": "Scheid Family Wines",
+      "country": "United States",
+      "region": "Monterey, California",
+      "date_visited": "",
+      "lat": 36.4251448,
+      "lng": -121.3067767,
+      "notes": ""
+    },
+    
+    {
+      "name": "Robert Mondavi Winery",
+      "country": "United States",
+      "region": "Oakville, Napa Valley",
+      "date_visited": "",
+      "lat": 38.4414728,
+      "lng": -122.4100923,
+      "notes": ""
+    },
+    
+    {
+      "name": "Louis M. Martini Winery",
+      "country": "United States",
+      "region": "St. Helena, Napa Valley",
+      "date_visited": "",
+      "lat": 38.4921681,
+      "lng": -122.4528184,
+      "notes": ""
+    },
+    
+    {
+      "name": "Trinchero Family Estates",
+      "country": "United States",
+      "region": "Napa Valley",
+      "date_visited": "",
+      "lat": 38.5284139,
+      "lng": -122.4978367,
+      "notes": ""
+    },
+    
+    {
+      "name": "Sutter Home Winery",
+      "country": "United States",
+      "region": "St. Helena, Napa Valley",
+      "date_visited": "",
+      "lat": 38.4911298,
+      "lng": -122.45399,
+      "notes": ""
+    },
+    
+    {
+      "name": "Sterling Vineyards",
+      "country": "United States",
+      "region": "Calistoga, Napa Valley",
+      "date_visited": "",
+      "lat": 38.569961,
+      "lng": -122.5546964,
+      "notes": ""
+    },
+    
+    {
+      "name": "Larson Family Winery",
+      "country": "United States",
+      "region": "Carneros, Sonoma",
+      "date_visited": "",
+      "lat": 38.2371467,
+      "lng": -122.4474275,
+      "notes": ""
+    },
+    
+    {
+      "name": "Bonterra Organic Estates",
+      "country": "United States",
+      "region": "Mendocino, California",
+      "date_visited": "",
+      "lat": 38.9895645,
+      "lng": -123.0976259,
+      "notes": ""
+    },
+    
+    {
+      "name": "Francis Ford Coppola Winery",
+      "country": "United States",
+      "region": "Alexander Valley, Sonoma",
+      "date_visited": "",
+      "lat": 38.6795554,
+      "lng": -122.8878575,
+      "notes": ""
+    },
+    
+    {
+      "name": "Benziger Family Winery",
+      "country": "United States",
+      "region": "Glen Ellen, Sonoma",
+      "date_visited": "",
+      "lat": 38.3608081,
+      "lng": -122.5427163,
+      "notes": ""
+    },
+    
+    {
+      "name": "Alpha Omega Winery",
+      "country": "United States",
+      "region": "Rutherford, Napa Valley",
+      "date_visited": "",
+      "lat": 38.4705541,
+      "lng": -122.4289289,
+      "notes": ""
+    },
+    
+    {
+      "name": "St. Francis Winery",
+      "country": "United States",
+      "region": "Kenwood, Sonoma",
+      "date_visited": "",
+      "lat": 38.4368311,
+      "lng": -122.5772025,
+      "notes": ""
+    },
+    
+    {
+      "name": "Banshee Wines",
+      "country": "United States",
+      "region": "Healdsburg, Sonoma",
+      "date_visited": "",
+      "lat": 38.6803529,
+      "lng": -122.8371929,
+      "notes": ""
+    },
+    
+    {
+      "name": "Martinelli Vineyards \u0026 Winery",
+      "country": "United States",
+      "region": "Russian River Valley, Sonoma",
+      "date_visited": "",
+      "lat": 38.487818,
+      "lng": -122.8082995,
+      "notes": ""
+    },
+    
+    {
+      "name": "Dutton Ranch",
+      "country": "United States",
+      "region": "Russian River Valley, Sonoma",
+      "date_visited": "",
+      "lat": 38.429818,
+      "lng": -122.8932659,
+      "notes": ""
+    },
+    
+    {
+      "name": "Childress Vineyards",
+      "country": "United States",
+      "region": "Yadkin Valley, North Carolina",
+      "date_visited": "",
+      "lat": 35.842795,
+      "lng": -80.28343,
+      "notes": ""
+    }
+    
+  ]
+</script> <div id="wineries-map" style="position: relative; height: 420px; width: 100%; border-radius: 8px; margin-bottom: 2rem; overflow: hidden; z-index: 0;"></div> <script defer src="/assets/js/wineries-map.js?v=4d31fe5d55711c8a60b1673a1d01a3f1"></script> <table id="wineries-table" class="table table-hover table-sm"> <thead> <tr> <th>Winery</th> <th>Country</th> <th>Region</th> <th>Date Visited</th> </tr> </thead> <tbody> <tr data-index="0"> <td><strong>Château Pédesclaux</strong></td> <td>France</td> <td>Pauillac, Bordeaux</td> <td>2023</td> </tr> <tr data-index="1"> <td><strong>Château Pavie</strong></td> <td>France</td> <td>Saint-Émilion, Bordeaux</td> <td>2023</td> </tr> <tr data-index="2"> <td><strong>Clos Fourtet</strong></td> <td>France</td> <td>Saint-Émilion, Bordeaux</td> <td>2023</td> </tr> <tr data-index="3"> <td><strong>Villemaurine</strong></td> <td>France</td> <td>Saint-Émilion, Bordeaux</td> <td></td> </tr> <tr data-index="4"> <td><strong>Château d'Arche</strong></td> <td>France</td> <td>Sauternes, Bordeaux</td> <td>2023</td> </tr> <tr data-index="5"> <td><strong>Château Lafon-Rochet</strong></td> <td>France</td> <td>Saint-Estèphe, Bordeaux</td> <td>2023</td> </tr> <tr data-index="6"> <td><strong>Château du Pavillon</strong></td> <td>France</td> <td>Canon-Fronsac, Bordeaux</td> <td></td> </tr> <tr data-index="7"> <td><strong>Château de La Dauphine</strong></td> <td>France</td> <td>Fronsac, Bordeaux</td> <td></td> </tr> <tr data-index="8"> <td><strong>Vignobles Ponty</strong></td> <td>France</td> <td>Fronsac, Bordeaux</td> <td></td> </tr> <tr data-index="9"> <td><strong>Petrus</strong></td> <td>France</td> <td>Pomerol, Bordeaux</td> <td></td> </tr> <tr data-index="10"> <td><strong>Château Kirwan</strong></td> <td>France</td> <td>Margaux, Bordeaux</td> <td></td> </tr> <tr data-index="11"> <td><strong>Château La Verrière</strong></td> <td>France</td> <td>Entre-Deux-Mers, Bordeaux</td> <td>2017</td> </tr> <tr data-index="12"> <td><strong>La Commanderie du Bardelet</strong></td> <td>France</td> <td>Entre-Deux-Mers, Bordeaux</td> <td>2017</td> </tr> <tr data-index="13"> <td><strong>Les Vignerons Réunis de Monségur</strong></td> <td>France</td> <td>Entre-Deux-Mers, Bordeaux</td> <td>2017</td> </tr> <tr data-index="14"> <td><strong>Chateau Grand Verdus</strong></td> <td>France</td> <td>Bordeaux Supérieur</td> <td>2017</td> </tr> <tr data-index="15"> <td><strong>Château de Latresne</strong></td> <td>France</td> <td>Bordeaux</td> <td>2017</td> </tr> <tr data-index="16"> <td><strong>Château Lafitte</strong></td> <td>France</td> <td>Bordeaux</td> <td>2017</td> </tr> <tr data-index="17"> <td><strong>Château Dutruch Grand Poujeaux</strong></td> <td>France</td> <td>Moulis-en-Médoc, Bordeaux</td> <td>2017</td> </tr> <tr data-index="18"> <td><strong>Château Fonréaud</strong></td> <td>France</td> <td>Listrac-Médoc, Bordeaux</td> <td>2017</td> </tr> <tr data-index="19"> <td><strong>Maison Galhaud - Caves du Manoir</strong></td> <td>France</td> <td>Saint-Émilion, Bordeaux</td> <td>2017</td> </tr> <tr data-index="20"> <td><strong>Wolfberger - Cave Eguisheim</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="21"> <td><strong>Engel Fernand et Fils</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="22"> <td><strong>Domaine Blanck André et ses Fils</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="23"> <td><strong>Cave Jean Geiler</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="24"> <td><strong>Domaines Schlumberger</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="25"> <td><strong>Domaine Marcel Deiss</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="26"> <td><strong>Domaine Josmeyer</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="27"> <td><strong>Castle of the Brotherhood Saint Etienne</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="28"> <td><strong>Maison Hugel</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="29"> <td><strong>Arthur Metz</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="30"> <td><strong>Vins d'Alsace Meyer-Krumb</strong></td> <td>France</td> <td>Alsace</td> <td></td> </tr> <tr data-index="31"> <td><strong>Champagne Pierre Gimonnet et Fils</strong></td> <td>France</td> <td>Champagne</td> <td></td> </tr> <tr data-index="32"> <td><strong>Champagne Caillez Lemaire</strong></td> <td>France</td> <td>Champagne</td> <td></td> </tr> <tr data-index="33"> <td><strong>Champagne Bollinger</strong></td> <td>France</td> <td>Champagne</td> <td></td> </tr> <tr data-index="34"> <td><strong>Vignoble Blanchard - Domaine de la Proutière</strong></td> <td>France</td> <td>Muscadet, Loire Valley</td> <td>2017</td> </tr> <tr data-index="35"> <td><strong>Cortes de Cima</strong></td> <td>Portugal</td> <td>Alentejo</td> <td></td> </tr> <tr data-index="36"> <td><strong>Herdade do Esporão</strong></td> <td>Portugal</td> <td>Alentejo</td> <td></td> </tr> <tr data-index="37"> <td><strong>Casa-Museu José Maria Da Fonseca</strong></td> <td>Portugal</td> <td>Setúbal Peninsula</td> <td></td> </tr> <tr data-index="38"> <td><strong>Domaine Skouras</strong></td> <td>Greece</td> <td>Nemea, Peloponnese</td> <td></td> </tr> <tr data-index="39"> <td><strong>Lafazanis S.A.</strong></td> <td>Greece</td> <td>Nemea, Peloponnese</td> <td></td> </tr> <tr data-index="40"> <td><strong>Gaia Wines</strong></td> <td>Greece</td> <td>Nemea, Peloponnese</td> <td></td> </tr> <tr data-index="41"> <td><strong>Zacharias Winery</strong></td> <td>Greece</td> <td>Nemea, Peloponnese</td> <td></td> </tr> <tr data-index="42"> <td><strong>Semeli Estate</strong></td> <td>Greece</td> <td>Nemea, Peloponnese</td> <td></td> </tr> <tr data-index="43"> <td><strong>Lafkiotis S.A.</strong></td> <td>Greece</td> <td>Nemea, Peloponnese</td> <td></td> </tr> <tr data-index="44"> <td><strong>Bodegas Campo Viejo</strong></td> <td>Spain</td> <td>Rioja</td> <td></td> </tr> <tr data-index="45"> <td><strong>Bodegas Ysios</strong></td> <td>Spain</td> <td>Rioja Alavesa</td> <td></td> </tr> <tr data-index="46"> <td><strong>Bodegas Osborne</strong></td> <td>Spain</td> <td>Jerez, Andalusia</td> <td></td> </tr> <tr data-index="47"> <td><strong>Gonzalez Byass</strong></td> <td>Spain</td> <td>Jerez, Andalusia</td> <td></td> </tr> <tr data-index="48"> <td><strong>Bodegas Williams &amp; Humbert</strong></td> <td>Spain</td> <td>Jerez, Andalusia</td> <td></td> </tr> <tr data-index="49"> <td><strong>Bodegas Lustau</strong></td> <td>Spain</td> <td>Jerez, Andalusia</td> <td></td> </tr> <tr data-index="50"> <td><strong>Viña La Canariera</strong></td> <td>Spain</td> <td>Jerez, Andalusia</td> <td></td> </tr> <tr data-index="51"> <td><strong>Caves Codorniu</strong></td> <td>Spain</td> <td>Penedès, Catalonia</td> <td></td> </tr> <tr data-index="52"> <td><strong>Família Torres</strong></td> <td>Spain</td> <td>Penedès, Catalonia</td> <td></td> </tr> <tr data-index="53"> <td><strong>Familia Torres - Vardon Kennett</strong></td> <td>Spain</td> <td>Penedès, Catalonia</td> <td></td> </tr> <tr data-index="54"> <td><strong>Bisol</strong></td> <td>Italy</td> <td>Prosecco, Veneto</td> <td></td> </tr> <tr data-index="55"> <td><strong>Meneghetti Wine Hotel &amp; Winery</strong></td> <td>Croatia</td> <td>Istria</td> <td></td> </tr> <tr data-index="56"> <td><strong>Weingut Feiler-Artinger</strong></td> <td>Austria</td> <td>Rust, Burgenland</td> <td></td> </tr> <tr data-index="57"> <td><strong>Weingut Lackner-Tinnacher</strong></td> <td>Austria</td> <td>South Styria</td> <td></td> </tr> <tr data-index="58"> <td><strong>Domäne Wachau</strong></td> <td>Austria</td> <td>Wachau</td> <td></td> </tr> <tr data-index="59"> <td><strong>Winery Csetvei</strong></td> <td>Hungary</td> <td>Mór</td> <td></td> </tr> <tr data-index="60"> <td><strong>Carpinus Winery</strong></td> <td>Hungary</td> <td>Tokaj</td> <td></td> </tr> <tr data-index="61"> <td><strong>Juhász Testvérek Pincészete</strong></td> <td>Hungary</td> <td>Eger</td> <td></td> </tr> <tr data-index="62"> <td><strong>Patricius Borház</strong></td> <td>Hungary</td> <td>Tokaj</td> <td></td> </tr> <tr data-index="63"> <td><strong>Szepsy Pince</strong></td> <td>Hungary</td> <td>Tokaj</td> <td></td> </tr> <tr data-index="64"> <td><strong>Staffelter Hof</strong></td> <td>Germany</td> <td>Mosel</td> <td></td> </tr> <tr data-index="65"> <td><strong>Weingut Müllen Martin</strong></td> <td>Germany</td> <td>Mosel</td> <td></td> </tr> <tr data-index="66"> <td><strong>Von Winning Winery</strong></td> <td>Germany</td> <td>Palatinate (Pfalz)</td> <td></td> </tr> <tr data-index="67"> <td><strong>Wijndomein Entre-Deux-Monts</strong></td> <td>Belgium</td> <td>West Flanders</td> <td></td> </tr> <tr data-index="68"> <td><strong>Wijngoed Monteberg</strong></td> <td>Belgium</td> <td>West Flanders</td> <td></td> </tr> <tr data-index="69"> <td><strong>Ruffus (Vignoble des Agaises)</strong></td> <td>Belgium</td> <td>Hainaut</td> <td></td> </tr> <tr data-index="70"> <td><strong>Chardonnay Meerdael</strong></td> <td>Belgium</td> <td>Flemish Brabant</td> <td></td> </tr> <tr data-index="71"> <td><strong>Genoels-Elderen Wine Castle</strong></td> <td>Belgium</td> <td>Limburg</td> <td></td> </tr> <tr data-index="72"> <td><strong>Villa Yustina Winery</strong></td> <td>Bulgaria</td> <td>Thracian Valley</td> <td></td> </tr> <tr data-index="73"> <td><strong>Inkerman</strong></td> <td>Ukraine</td> <td>Crimea</td> <td></td> </tr> <tr data-index="74"> <td><strong>Shabo</strong></td> <td>Ukraine</td> <td>Odessa</td> <td></td> </tr> <tr data-index="75"> <td><strong>Vulcănești Winery</strong></td> <td>Moldova</td> <td>Cahul</td> <td></td> </tr> <tr data-index="76"> <td><strong>MacMurray Ranch</strong></td> <td>United States</td> <td>Russian River Valley, Sonoma</td> <td></td> </tr> <tr data-index="77"> <td><strong>Ram's Gate Winery</strong></td> <td>United States</td> <td>Carneros, Sonoma</td> <td></td> </tr> <tr data-index="78"> <td><strong>Rodney Strong Vineyards</strong></td> <td>United States</td> <td>Russian River Valley, Sonoma</td> <td></td> </tr> <tr data-index="79"> <td><strong>DeLoach Vineyards</strong></td> <td>United States</td> <td>Russian River Valley, Sonoma</td> <td></td> </tr> <tr data-index="80"> <td><strong>Black Stallion Estate Winery</strong></td> <td>United States</td> <td>Oak Knoll, Napa Valley</td> <td></td> </tr> <tr data-index="81"> <td><strong>The Prisoner Wine Company</strong></td> <td>United States</td> <td>Napa Valley</td> <td></td> </tr> <tr data-index="82"> <td><strong>Orin Swift Cellars</strong></td> <td>United States</td> <td>St. Helena, Napa Valley</td> <td></td> </tr> <tr data-index="83"> <td><strong>Scheid Family Wines</strong></td> <td>United States</td> <td>Monterey, California</td> <td></td> </tr> <tr data-index="84"> <td><strong>Robert Mondavi Winery</strong></td> <td>United States</td> <td>Oakville, Napa Valley</td> <td></td> </tr> <tr data-index="85"> <td><strong>Louis M. Martini Winery</strong></td> <td>United States</td> <td>St. Helena, Napa Valley</td> <td></td> </tr> <tr data-index="86"> <td><strong>Trinchero Family Estates</strong></td> <td>United States</td> <td>Napa Valley</td> <td></td> </tr> <tr data-index="87"> <td><strong>Sutter Home Winery</strong></td> <td>United States</td> <td>St. Helena, Napa Valley</td> <td></td> </tr> <tr data-index="88"> <td><strong>Sterling Vineyards</strong></td> <td>United States</td> <td>Calistoga, Napa Valley</td> <td></td> </tr> <tr data-index="89"> <td><strong>Larson Family Winery</strong></td> <td>United States</td> <td>Carneros, Sonoma</td> <td></td> </tr> <tr data-index="90"> <td><strong>Bonterra Organic Estates</strong></td> <td>United States</td> <td>Mendocino, California</td> <td></td> </tr> <tr data-index="91"> <td><strong>Francis Ford Coppola Winery</strong></td> <td>United States</td> <td>Alexander Valley, Sonoma</td> <td></td> </tr> <tr data-index="92"> <td><strong>Benziger Family Winery</strong></td> <td>United States</td> <td>Glen Ellen, Sonoma</td> <td></td> </tr> <tr data-index="93"> <td><strong>Alpha Omega Winery</strong></td> <td>United States</td> <td>Rutherford, Napa Valley</td> <td></td> </tr> <tr data-index="94"> <td><strong>St. Francis Winery</strong></td> <td>United States</td> <td>Kenwood, Sonoma</td> <td></td> </tr> <tr data-index="95"> <td><strong>Banshee Wines</strong></td> <td>United States</td> <td>Healdsburg, Sonoma</td> <td></td> </tr> <tr data-index="96"> <td><strong>Martinelli Vineyards &amp; Winery</strong></td> <td>United States</td> <td>Russian River Valley, Sonoma</td> <td></td> </tr> <tr data-index="97"> <td><strong>Dutton Ranch</strong></td> <td>United States</td> <td>Russian River Valley, Sonoma</td> <td></td> </tr> <tr data-index="98"> <td><strong>Childress Vineyards</strong></td> <td>United States</td> <td>Yadkin Valley, North Carolina</td> <td></td> </tr> </tbody> </table> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jonas De Maere. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js" integrity="sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg=" crossorigin="anonymous"></script> <script defer src="/assets/js/leaflet-setup.js?v=b6313931e203b924523e2d8b75fe8874" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?v=85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?v=2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?v=c15de51d4bb57887caa2c21988d97279"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?v=a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?v=2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?v=f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?v=a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?v=6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?v=ccc841c459bfc0e64c1c2b5acd10df02"></script> </body> </html>

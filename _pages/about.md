@@ -2,18 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: CEO, Vintaflow LLC
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: jonas-de-maere.jpg
+  image_circular: False # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Austin, Texas</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+
+selected_papers: false
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Founder and CEO of [Vintaflow](https://vintaflow.com), Jonas De Maere, PhD, brings over a decade of end-to-end experience across the global wine value chain — from running his own Belgian wine distribution business to leading wine buying, sourcing, and import operations for major retailers in Europe and the United States.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+His career spans academia, entrepreneurship, and corporate leadership. After earning a PhD in Applied Economics (dissertation on governance and boards of directors), an early passion for wine pulled him into entrepreneurial life with BelgianWines, followed by roles in teaching, consulting, and category management across both European and U.S. markets. This gives him a rare combination of academic rigor, commercial focus, and hands-on execution.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Today, Jonas channels this background into Vintaflow — a multi-echelon supply chain platform purpose-built for the alcoholic beverage industry. He works at the intersection of data, strategy, and relationships, translating complex forecasting and inventory challenges into actionable solutions that improve service levels, unlock margin, and strengthen partnerships between producers, importers, distributors, and retailers.

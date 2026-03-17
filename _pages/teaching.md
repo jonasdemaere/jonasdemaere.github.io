@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: true
+permalink: /events/
+title: events
+description: Events, talks, and appearances.
+nav: false
 nav_order: 6
 calendar: true
 ---

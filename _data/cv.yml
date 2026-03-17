@@ -1,189 +1,181 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Jonas De Maere
+  label: CEO & Founder, Vintaflow
+  email: 
+  phone: 
+  location: Austin, TX
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: jonasdemaere
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Vintaflow
+        position: CEO / Founder
+        location: Austin, TX
+        url: https://vintaflow.com
+        start_date: 2025
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Founded and bootstrapped Vintaflow, a SaaS supply chain platform for the alcoholic beverage industry, from concept to commercial launch—achieving early market traction and revenue without external funding.
+          - Defined and executed the go-to-market strategy, securing strategic customers and partnerships across the U.S. and Europe, including producers, importers, and freight forwarders.
+          - Led product vision and cross-functional teams to deliver enterprise-grade forecasting and inventory optimization tools, driving measurable reductions in inventory costs and supply chain inefficiencies.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Ahold Delhaize USA
+        position: Sourcing Manager – Wine, Private Brands, Special Projects
+        location: ME & NC
+        start_date: 2019
+        end_date: 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - Managed teams up to four direct reports engaged in sourcing of categories such as beverage, wine, frozen, and edible grocery.
+          - In charge of sourcing strategies and negotiation tactics for 5 different supermarket chains for a total of 2,200 stores.
+          - Functional areas involved: vendor selection, cost negotiation, forecasting, private brand development, pricing, and promotion.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Delhaize
+        position: Head of Wine Buying Department / Category Manager Wine
+        location: Belgium
+        start_date: 2016
+        end_date: 2019
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Promoted within 6 months of joining to leading a team with 3 direct and 10 indirect reports sourcing over €200 million annually.
+          - In charge of negotiation, item sourcing, private brand development, and category performance.
+          - Responsible for the P&L, commercial plan, supply chain, replenishment, and merchandising.
+          - Forerunner in the integration between Ahold and Delhaize after the merger.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Wine in Moderation AISBL
+        position: Strategy Consultant
+        location: Belgium
+        start_date: 2015
+        end_date: 2016
+        highlights:
+          - Strategic development: identification of assessment tools, strategic objectives, operational frameworks, and budgets.
+          - Built relationships with national federations, European institutions, and multinational corporations.
+          - Implemented training pilot programs.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Belgian Wines Ltd.
+        position: General Manager and Member of the Board
+        location: Belgium
+        start_date: 2007
+        end_date: 2019
+        highlights:
+          - Executive family member of a wine business with focus on distribution, ecommerce, and retail.
+          - Involved in finance, accounting, business development, sourcing, and merchandising.
+          - Developed a strategic plan around B2C focus through retail outlets and direct to consumer sales.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: University of Antwerp, Department of Accounting and Finance
+        position: Research Assistant in Corporate Governance
+        location: Antwerp, Belgium
+        start_date: 2009
+        end_date: 2013
+        highlights:
+          - Conducted research on corporate governance in an international setting and disseminated findings to policy makers, industry representatives, trade associations, regulators, and media.
+          - Acquired extensive knowledge on the functioning of boards of directors and management committees, with emphasis on internal board processes and the interaction between directors and executives.
+          - Developed a strong understanding of compliance, enterprise risk management, and the implications of strategy on firm-level outcomes.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Education:
+      - institution: University of Antwerp
+        location: Antwerp, Belgium
+        area: Applied Economics
+        studyType: PhD
+        start_date: 2009
+        end_date: 2013
+        highlights:
+          - "Dissertation: 'Corporate Governance in Belgian Private Firms: Determinants of Board and Firm-level outcomes'"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - institution: Lessius University College
+        location: Antwerp, Belgium
+        area: Business Economics
+        studyType: Master's Degree
+        start_date: 2008
+        end_date: 2009
+        highlights:
+          - "Major in Operations Management"
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - institution: Lessius University College
+        location: Antwerp, Belgium
+        area: Business Economics
+        studyType: Bachelor's Degree
+        start_date: 2005
+        end_date: 2008
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: "Certificate in Interpersonal Communication: Strategies for Executives"
+        date: 2021
+        issuer: MIT Sloan School of Management
+        icon: fa-solid fa-graduation-cap
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: "Certificate in Artificial Intelligence: Implications for Business Strategy"
+        date: 2020
+        issuer: MIT Sloan School of Management
+        icon: fa-solid fa-robot
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: WSET Certified Educator
+        date: 2014
+        issuer: Wine and Spirits Education Trust
+        icon: fa-solid fa-wine-glass
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: WSET Level 4 in Wines and Spirits
+        date: 2013
+        issuer: Wine and Spirits Education Trust
+        icon: fa-solid fa-wine-bottle
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Publications:
+      - title: "Board Capital and the Downward Spiral: Antecedents of Bankruptcy in a Sample of Unlisted Firms"
+        authors:
+          - De Maere, J.
+          - Jorissen, A.
+          - Uhlaner, L. M.
+        publisher: "Corporate Governance: An International Review, 22(5), 387-407"
+        releaseDate: 2014
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - title: "Board roles in private firms: the influence of information on board task performance"
+        authors:
+          - De Maere, J.
+          - Jorissen, A.
+          - van der Laan, G.
+        publisher: "Academy of Management Proceedings, Vol. 2013, No. 1, p. 15362"
+        releaseDate: 2013
+
+      - title: "The effect of family ownership on the relation between board processes and board task involvement"
+        authors:
+          - De Maere, J.
+          - Jorissen, A.
+          - Uhlaner, L.
+        publisher: "University of Antwerp (part of PhD dissertation)"
+        releaseDate: 2013
+
+      - title: "Governance configurations and governance outcomes in Belgian corporations"
+        authors:
+          - Boytsun, A.
+          - van der Laan, G.
+          - Jorissen, A.
+          - van Witteloostuijn, A.
+          - De Maere, J.
+        publisher: "University of Antwerp (working paper)"
+        releaseDate: 2013
+
+    Skills:
+      - name: Data & Analytics
+        icon: fa-solid fa-chart-bar
+        keywords: "Python, R, Stata, PowerBI, MicroStrategy, logistic regression, survival analysis, structural equation modelling, neural networks, Monte Carlo simulations"
+
+      - name: Supply Chain & Category Management
+        icon: fa-solid fa-boxes-stacking
+        keywords: "Sourcing, forecasting, inventory optimization, private brand development, vendor negotiation, pricing, merchandising"
+
+    Languages:
+      - name: Dutch
+        summary: Native
+
+      - name: English
+        summary: Excellent
+
+      - name: French
+        summary: Good
+
+      - name: German
+        summary: Elementary
+
+      - name: Russian
+        summary: Elementary

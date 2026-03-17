@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>Austin, Texas</p>
 
-
 selected_papers: false
 social: true # includes social icons at the bottom of the page
 

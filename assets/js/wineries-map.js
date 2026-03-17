@@ -50,8 +50,12 @@
     var marker = L.circleMarker([w.lat, w.lng], markerStyle);
 
     var popupHtml =
-      "<strong>" + w.name + "</strong><br>" +
-      w.region + ", " + w.country +
+      "<strong>" +
+      w.name +
+      "</strong><br>" +
+      w.region +
+      ", " +
+      w.country +
       (w.date_visited ? "<br><small>Visited: " + w.date_visited + "</small>" : "") +
       (w.notes ? "<br><em>" + w.notes + "</em>" : "");
 
@@ -62,21 +66,29 @@
 
   // Fit map to all markers, then force a size recalculation
   if (markers.length > 0) {
-    var group = L.featureGroup(markers.map(function (m) { return m.marker; }));
+    var group = L.featureGroup(
+      markers.map(function (m) {
+        return m.marker;
+      })
+    );
     map.fitBounds(group.getBounds().pad(0.2));
   } else {
     map.setView([20, 0], 2);
   }
 
   // invalidateSize ensures Leaflet redraws after any layout shifts
-  setTimeout(function () { map.invalidateSize(); }, 100);
+  setTimeout(function () {
+    map.invalidateSize();
+  }, 100);
 
   // Table row → map interaction
   document.querySelectorAll("#wineries-table tbody tr").forEach(function (row) {
     row.style.cursor = "pointer";
     row.addEventListener("click", function () {
       var idx = parseInt(row.getAttribute("data-index"), 10);
-      var entry = markers.find(function (m) { return m.index === idx; });
+      var entry = markers.find(function (m) {
+        return m.index === idx;
+      });
       if (!entry) return;
       map.setView(entry.marker.getLatLng(), 12, { animate: true });
       entry.marker.openPopup();

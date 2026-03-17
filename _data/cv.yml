@@ -1,8 +1,7 @@
 cv:
   name: Jonas De Maere
-  label: CEO & Founder, Vintaflow
-  email: 
-  phone: 
+  email:
+  phone:
   location: Austin, TX
 
   social_networks:
@@ -15,7 +14,7 @@ cv:
         position: CEO / Founder
         location: Austin, TX
         url: https://vintaflow.com
-        start_date: 2025
+        start_date: "2025"
         end_date: present
         highlights:
           - Founded and bootstrapped Vintaflow, a SaaS supply chain platform for the alcoholic beverage industry, from concept to commercial launch—achieving early market traction and revenue without external funding.
@@ -25,18 +24,18 @@ cv:
       - company: Ahold Delhaize USA
         position: Sourcing Manager – Wine, Private Brands, Special Projects
         location: ME & NC
-        start_date: 2019
-        end_date: 2025
+        start_date: "2019"
+        end_date: "2025"
         highlights:
           - Managed teams up to four direct reports engaged in sourcing of categories such as beverage, wine, frozen, and edible grocery.
           - In charge of sourcing strategies and negotiation tactics for 5 different supermarket chains for a total of 2,200 stores.
-          - Functional areas involved: vendor selection, cost negotiation, forecasting, private brand development, pricing, and promotion.
+          - "Functional areas involved: vendor selection, cost negotiation, forecasting, private brand development, pricing, and promotion."
 
       - company: Delhaize
         position: Head of Wine Buying Department / Category Manager Wine
         location: Belgium
-        start_date: 2016
-        end_date: 2019
+        start_date: "2016"
+        end_date: "2019"
         highlights:
           - Promoted within 6 months of joining to leading a team with 3 direct and 10 indirect reports sourcing over €200 million annually.
           - In charge of negotiation, item sourcing, private brand development, and category performance.
@@ -46,18 +45,18 @@ cv:
       - company: Wine in Moderation AISBL
         position: Strategy Consultant
         location: Belgium
-        start_date: 2015
-        end_date: 2016
+        start_date: "2015"
+        end_date: "2016"
         highlights:
-          - Strategic development: identification of assessment tools, strategic objectives, operational frameworks, and budgets.
+          - "Strategic development: identification of assessment tools, strategic objectives, operational frameworks, and budgets."
           - Built relationships with national federations, European institutions, and multinational corporations.
           - Implemented training pilot programs.
 
       - company: Belgian Wines Ltd.
         position: General Manager and Member of the Board
         location: Belgium
-        start_date: 2007
-        end_date: 2019
+        start_date: "2007"
+        end_date: "2019"
         highlights:
           - Executive family member of a wine business with focus on distribution, ecommerce, and retail.
           - Involved in finance, accounting, business development, sourcing, and merchandising.
@@ -66,8 +65,8 @@ cv:
       - company: University of Antwerp, Department of Accounting and Finance
         position: Research Assistant in Corporate Governance
         location: Antwerp, Belgium
-        start_date: 2009
-        end_date: 2013
+        start_date: "2009"
+        end_date: "2013"
         highlights:
           - Conducted research on corporate governance in an international setting and disseminated findings to policy makers, industry representatives, trade associations, regulators, and media.
           - Acquired extensive knowledge on the functioning of boards of directors and management committees, with emphasis on internal board processes and the interaction between directors and executives.
@@ -78,8 +77,8 @@ cv:
         location: Antwerp, Belgium
         area: Applied Economics
         studyType: PhD
-        start_date: 2009
-        end_date: 2013
+        start_date: "2009"
+        end_date: "2013"
         highlights:
           - "Dissertation: 'Corporate Governance in Belgian Private Firms: Determinants of Board and Firm-level outcomes'"
 
@@ -87,8 +86,8 @@ cv:
         location: Antwerp, Belgium
         area: Business Economics
         studyType: Master's Degree
-        start_date: 2008
-        end_date: 2009
+        start_date: "2008"
+        end_date: "2009"
         highlights:
           - "Major in Operations Management"
 
@@ -96,27 +95,27 @@ cv:
         location: Antwerp, Belgium
         area: Business Economics
         studyType: Bachelor's Degree
-        start_date: 2005
-        end_date: 2008
+        start_date: "2005"
+        end_date: "2008"
 
     Certificates:
       - name: "Certificate in Interpersonal Communication: Strategies for Executives"
-        date: 2021
+        date: "2021"
         issuer: MIT Sloan School of Management
         icon: fa-solid fa-graduation-cap
 
       - name: "Certificate in Artificial Intelligence: Implications for Business Strategy"
-        date: 2020
+        date: "2020"
         issuer: MIT Sloan School of Management
         icon: fa-solid fa-robot
 
       - name: WSET Certified Educator
-        date: 2014
+        date: "2014"
         issuer: Wine and Spirits Education Trust
         icon: fa-solid fa-wine-glass
 
       - name: WSET Level 4 in Wines and Spirits
-        date: 2013
+        date: "2013"
         issuer: Wine and Spirits Education Trust
         icon: fa-solid fa-wine-bottle
 
@@ -127,7 +126,7 @@ cv:
           - Jorissen, A.
           - Uhlaner, L. M.
         publisher: "Corporate Governance: An International Review, 22(5), 387-407"
-        releaseDate: 2014
+        releaseDate: "2014"
 
       - title: "Board roles in private firms: the influence of information on board task performance"
         authors:
@@ -135,7 +134,7 @@ cv:
           - Jorissen, A.
           - van der Laan, G.
         publisher: "Academy of Management Proceedings, Vol. 2013, No. 1, p. 15362"
-        releaseDate: 2013
+        releaseDate: "2013"
 
       - title: "The effect of family ownership on the relation between board processes and board task involvement"
         authors:
@@ -143,7 +142,7 @@ cv:
           - Jorissen, A.
           - Uhlaner, L.
         publisher: "University of Antwerp (part of PhD dissertation)"
-        releaseDate: 2013
+        releaseDate: "2013"
 
       - title: "Governance configurations and governance outcomes in Belgian corporations"
         authors:
@@ -153,7 +152,7 @@ cv:
           - van Witteloostuijn, A.
           - De Maere, J.
         publisher: "University of Antwerp (working paper)"
-        releaseDate: 2013
+        releaseDate: "2013"
 
     Skills:
       - name: Data & Analytics

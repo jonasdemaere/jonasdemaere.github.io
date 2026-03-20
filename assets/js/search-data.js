@@ -44,7 +44,128 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-a-french-lady-who-speaks-german",
+        },{id: "post-griekenland-zon-zee-en-wijn",
+        
+          title: "Griekenland: zon, zee en … wijn",
+        
+        description: "Een ontdekkingsreis doorheen de wijngaarden van Nemea op de Peloponnesos — Moschofilero, Agiorgitiko en de beste domeinen van Griekenland.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/griekenland-zon-zee-en-wijn/";
+          
+        },
+      },{id: "post-concours-mondial-de-bruxelles-behind-the-scenes-of-the-world-39-s-largest-wine-competition",
+        
+          title: "Concours Mondial de Bruxelles: Behind the Scenes of the World&#39;s Largest Wine Competition...",
+        
+        description: "An inside look at the methodology, scale, and judging process of the world&#39;s most recognized wine competition.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/concours-mondial-de-bruxelles/";
+          
+        },
+      },{id: "post-the-drinkalsace-experience",
+        
+          title: "The #DrinkAlsace Experience",
+        
+        description: "Een week lang de wijngaarden van de Elzas verkennen — oenotoerisme en technologie gecombineerd in de",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/drinkalsace-experience/";
+          
+        },
+      },{id: "post-on-chianti-classico-and-tuscan-wines",
+        
+          title: "On Chianti Classico and Tuscan Wines",
+        
+        description: "On how to choose a good Chianti Classico, and what makes Tuscan wines so endlessly compelling.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/on-chianti-classico-and-tuscan-wines/";
+          
+        },
+      },{id: "post-belgium-the-smallest-wine-producing-country-in-the-world",
+        
+          title: "Belgium: the Smallest Wine Producing Country in the World",
+        
+        description: "On the history, climate, and quiet revival of Belgian winemaking.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/belgium-the-smallest-wine-producing-country-in-the-world/";
+          
+        },
+      },{id: "post-the-wine-muse",
+        
+          title: "The Wine Muse",
+        
+        description: "On wine as a symbol of art, culture, religion, and inspiration throughout history.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/the-wine-muse/";
+          
+        },
+      },{id: "post-campo-viejo",
+        
+          title: "Campo Viejo",
+        
+        description: "Een bezoek aan de indrukwekkende bodega van Campo Viejo in Rioja — 70.000 eikenvaten, 320 fermentatietanks en 24 miljoen flessen per jaar.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/campo-viejo/";
+          
+        },
+      },{id: "post-is-champagne-still-sparkling",
+        
+          title: "Is Champagne Still Sparkling?",
+        
+        description: "On Champagne&#39;s economic resilience, brand power, and shifting global demand.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/is-champagne-still-sparkling/";
+          
+        },
+      },{id: "post-bodega-ysios",
+        
+          title: "Bodega Ysios",
+        
+        description: "Een bezoek aan Bodega Ysios in Rioja Alavesa — een architecturaal meesterwerk en een kathedraal ter verering van het wijnmaken.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/bodega-ysios/";
+          
+        },
+      },{id: "post-harvest-the-birth-of-a-new-vintage",
+        
+          title: "Harvest, the Birth of a New Vintage",
+        
+        description: "On the timing, labor, and transition of harvest — from vineyard to cellar.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/harvest-the-birth-of-a-new-vintage/";
+          
+        },
+      },{id: "post-sun-sea-sand-and-rosé",
+        
+          title: "Sun, Sea, Sand and Rosé",
+        
+        description: "On why rosé is the perfect summer wine, how it is made, and how to choose one well.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/sun-sea-sand-and-rose/";
+          
+        },
+      },{id: "post-a-french-lady-who-speaks-german",
         
           title: "A French Lady Who Speaks German",
         
@@ -53,6 +174,72 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2013/a-french-lady-who-speaks-german/";
+          
+        },
+      },{id: "post-organic-and-biodynamic-wines",
+        
+          title: "Organic and Biodynamic Wines",
+        
+        description: "On the philosophy, methods, and meaning behind organic and biodynamic winemaking.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2013/organic-and-biodynamic-wines/";
+          
+        },
+      },{id: "post-the-economics-of-a-bottle-breaking-down-the-price-tag",
+        
+          title: "The Economics of a Bottle: Breaking Down the Price Tag",
+        
+        description: "A detailed look at the production costs, logistics, taxes, and markups that shape the price of a bottle of wine.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2009/the-economics-of-a-bottle/";
+          
+        },
+      },{id: "post-what-determines-the-cost-of-wine",
+        
+          title: "What Determines the Cost of Wine?",
+        
+        description: "A breakdown of the objective factors that shape the price of a bottle of wine.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2009/what-determines-the-cost-of-wine/";
+          
+        },
+      },{id: "post-wine-storage-and-preservation",
+        
+          title: "Wine Storage and Preservation",
+        
+        description: "A practical guide to storing wine correctly, from temperature and humidity to light and vibration.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2009/wine-storage-and-preservation/";
+          
+        },
+      },{id: "post-the-art-of-serving-wine",
+        
+          title: "The Art of Serving Wine",
+        
+        description: "A guide to glassware, serving temperatures, opening bottles, and aeration.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2009/the-art-of-serving-wine/";
+          
+        },
+      },{id: "post-wine-a-journey-beyond-the-glass",
+        
+          title: "Wine: A Journey Beyond the Glass",
+        
+        description: "A personal vision of wine as experience, art, and discovery.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2009/wine-a-journey-beyond-the-glass/";
           
         },
       },{id: "books-the-godfather",

@@ -4,9 +4,11 @@ title: A French Lady Who Speaks German
 date: 2013-05-09 00:00:00
 author: Jonas De Maere
 description: On Pinot Noir, Spätburgunder, and the art of treating a noble grape with care.
-tags: wine burgundy germany "pinot noir" "spätburgunder"
+tags: wine burgundy germany pinot noir spätburgunder
 categories: wine
 ---
+
+_First published in the print edition of Good Wine Magazine, 2013._
 
 Pinot Noir, the most elegant of all grapes! When I think of this variety, I think about things such as sensual, subtle, silky and charming. Pinot Noir is feminine: like a stylish lady, she is tempting and irresistible, but at the same time sensitive and in need of care. Pinot Noir is not an easy grape to deal with. She can be seductive when made in perfect conditions; but she can be just as repelling when neglected. When you do not give her the attention she deserves, she becomes harsh, bitter and coarse.
 

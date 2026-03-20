@@ -147,35 +147,35 @@
 - name: "Wolfberger - Cave Eguisheim"
   country: "France"
   region: "Alsace"
-  date_visited: ""
+  date_visited: "2014-05-20"
   lat: 48.0421092
   lng: 7.3100975
 
 - name: "Engel Fernand et Fils"
   country: "France"
   region: "Alsace"
-  date_visited: ""
+  date_visited: "2014-05-23"
   lat: 48.2193617
   lng: 7.3634327
 
 - name: "Domaine Blanck André et ses Fils"
   country: "France"
   region: "Alsace"
-  date_visited: ""
+  date_visited: "2014-05-22"
   lat: 48.1356034
   lng: 7.2881566
 
 - name: "Cave Jean Geiler"
   country: "France"
   region: "Alsace"
-  date_visited: ""
+  date_visited: "2014-05-19"
   lat: 48.0983476
   lng: 7.3025836
 
 - name: "Domaines Schlumberger"
   country: "France"
   region: "Alsace"
-  date_visited: ""
+  date_visited: "2014-05-21"
   lat: 47.912089
   lng: 7.206304
 
@@ -189,14 +189,14 @@
 - name: "Domaine Josmeyer"
   country: "France"
   region: "Alsace"
-  date_visited: ""
+  date_visited: "2014-05-20"
   lat: 48.0740772
   lng: 7.2855265
 
 - name: "Castle of the Brotherhood Saint Etienne"
   country: "France"
   region: "Alsace"
-  date_visited: ""
+  date_visited: "2014-05-22"
   lat: 48.1351261
   lng: 7.2884641
 
@@ -210,7 +210,7 @@
 - name: "Arthur Metz"
   country: "France"
   region: "Alsace"
-  date_visited: ""
+  date_visited: "2014-05-23"
   lat: 48.6221769
   lng: 7.4839214
 
@@ -277,21 +277,21 @@
 - name: "Domaine Skouras"
   country: "Greece"
   region: "Nemea, Peloponnese"
-  date_visited: ""
+  date_visited: "2014-06"
   lat: 37.689635
   lng: 22.654737
 
 - name: "Lafazanis S.A."
   country: "Greece"
   region: "Nemea, Peloponnese"
-  date_visited: ""
+  date_visited: "2014-06"
   lat: 37.81366
   lng: 22.765443
 
 - name: "Gaia Wines"
   country: "Greece"
   region: "Nemea, Peloponnese"
-  date_visited: ""
+  date_visited: "2014-06"
   lat: 37.856124
   lng: 22.670579
 
@@ -305,7 +305,7 @@
 - name: "Semeli Estate"
   country: "Greece"
   region: "Nemea, Peloponnese"
-  date_visited: ""
+  date_visited: "2014-06"
   lat: 37.871198
   lng: 22.6794165
 
@@ -316,18 +316,25 @@
   lat: 37.8201564
   lng: 22.747245
 
+- name: "Domaine Tselopos"
+  country: "Greece"
+  region: "Nemea, Peloponnese"
+  date_visited: "2014-06"
+  lat: 37.6944
+  lng: 22.5817
+
 # --- Spain (Rioja) ---
 - name: "Bodegas Campo Viejo"
   country: "Spain"
   region: "Rioja"
-  date_visited: ""
+  date_visited: "2013-10-23"
   lat: 42.4716454
   lng: -2.4798028
 
 - name: "Bodegas Ysios"
   country: "Spain"
   region: "Rioja Alavesa"
-  date_visited: ""
+  date_visited: "2013-10-27"
   lat: 42.5688228
   lng: -2.5907558
 

@@ -1,5 +1,7 @@
 _site
 .bundle
+.claude/settings.local.json
+.playwright-mcp/
 .DS_store
 .idea
 .jekyll-cache

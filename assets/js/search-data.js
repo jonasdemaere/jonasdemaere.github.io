@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-griekenland-zon-zee-en-wijn",
+        },{id: "post-relaunching-my-personal-blog",
+        
+          title: "Relaunching my Personal blog",
+        
+        description: "Picking up where I left off.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/relaunch-personal-blog/";
+          
+        },
+      },{id: "post-griekenland-zon-zee-en-wijn",
         
           title: "Griekenland: zon, zee en … wijn",
         
@@ -257,10 +268,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-10-31-linkedin-feature/";
-            },},{id: "news-personal-blog-relaunched",
-          title: 'Personal Blog Relaunched',
-          description: "",
-          section: "News",},{id: "projects-project-1",
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {

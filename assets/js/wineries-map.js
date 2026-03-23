@@ -136,7 +136,7 @@
   var tbody = document.querySelector("#wineries-table tbody");
   var allRows = Array.from(tbody.querySelectorAll("tr"));
   var currentQuery = "";
-  var currentSort = { col: -1, asc: true };
+  var currentSort = { col: 3, asc: false };
 
   function getCellText(row, col) {
     return row.cells[col].textContent.trim().toLowerCase();
@@ -184,4 +184,6 @@
       render();
     });
   }
+
+  render();
 })();

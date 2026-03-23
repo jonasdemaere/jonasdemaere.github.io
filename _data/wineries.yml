@@ -375,14 +375,14 @@
   lat: 37.806918
   lng: 22.598473
 
-- name: "Lafkiotis S.A."
+- name: "Lafkiotis"
   country: "Greece"
   region: "Nemea, Peloponnese"
   date_visited: "2014-06-14"
   lat: 37.8201564
   lng: 22.747245
 
-- name: "A & G PAPAIOANNOU WINERY"
+- name: "Papaioannou Winery"
   country: "Greece"
   region: "Nemea, Peloponnese"
   date_visited: "2014-06-15"
@@ -1204,7 +1204,7 @@
 - name: "Weingut Esterházy"
   country: "Austria"
   region: "Burgenland"
-  date_visited: "2018-06-11"
+  date_visited: "2014-11-13"
   lat: 47.821298
   lng: 16.544255
 
@@ -1554,7 +1554,7 @@
 - name: "Villa Yustina Winery"
   country: "Bulgaria"
   region: "Thracian Valley"
-  date_visited: "2025-10-23"
+  date_visited: "2015-10-23"
   lat: 42.0399229
   lng: 24.5189846
 
@@ -1564,3 +1564,87 @@
   date_visited: "2025-08-01"
   lat: 38.429818
   lng: -122.8932659
+
+- name: Kloster Eberbach
+  country: Germany
+  region: Rheingau
+  date_visited: '2010-09-26'
+  lat: 50.041900
+  lng: 8.077800
+
+- name: Schloss Vollrads
+  country: Germany
+  region: Rheingau
+  date_visited: '2010-09-27'
+  lat: 50.060000
+  lng: 7.930000
+
+- name: Weingut Georg Breuer
+  country: Germany
+  region: Rheingau
+  date_visited: '2010-09-28'
+  lat: 49.983300
+  lng: 7.916700
+
+- name: Sekthaus Solter
+  country: Germany
+  region: Rheingau
+  date_visited: '2010-09-29'
+  lat: 49.975000
+  lng: 7.917000
+
+- name: Weingut Künstler
+  country: Germany
+  region: Rheingau
+  date_visited: '2010-09-29'
+  lat: 50.009700
+  lng: 8.359200
+
+- name: Weingut Schmitges
+  country: Germany
+  region: Mosel
+  date_visited: '2010-09-29'
+  lat: 49.994400
+  lng: 7.073100
+
+- name: Badischer Winzerkeller
+  country: Germany
+  region: Kaiserstuhl
+  date_visited: '2012-08-16'
+  lat: 48.030000
+  lng: 7.577000
+
+- name: Weingut Stigler
+  country: Germany
+  region: Kaiserstuhl
+  date_visited: '2012-08-17'
+  lat: 48.061000
+  lng: 7.640000
+
+- name: Weingut Trautwein
+  country: Germany
+  region: Kaiserstuhl
+  date_visited: '2012-08-17'
+  lat: 48.109000
+  lng: 7.745000
+
+- name: Staatsweingut Freiburg
+  country: Germany
+  region: Kaiserstuhl
+  date_visited: '2012-08-18'
+  lat: 48.039000
+  lng: 7.659000
+
+- name: Weingut Salwey
+  country: Germany
+  region: Kaiserstuhl
+  date_visited: '2012-08-18'
+  lat: 48.088000
+  lng: 7.672000
+
+- name: Alde Gott Winzer
+  country: Germany
+  region: Ortenau, Baden
+  date_visited: '2012-08-19'
+  lat: 48.380000
+  lng: 8.073000

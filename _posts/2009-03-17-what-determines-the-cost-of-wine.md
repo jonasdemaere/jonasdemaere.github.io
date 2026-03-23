@@ -18,7 +18,7 @@ Beyond reputation, several objective factors map out the final pricing of a bott
 
 The foundation of price is the quality of the grape juice, which is largely determined by labor in the vineyard. Factors such as **pruning, irrigation, vineyard orientation, disease control, ripening, and weather conditions** all dictate the potential of the harvest. When these conditions are optimal, the winemaker has a much better chance of producing a superior wine.
 
-A closely related factor is **yield** — the number of liters produced per hectare. Many techniques used to improve quality directly reduce the yield. The higher the yield, the more wine a grower can produce, but often at the cost of concentration. While many appellations allow yields between 60 and 80 hectoliters per hectare, premium wines often limit themselves to **35 to 50 hectoliters** to ensure depth and character. This, of course, varies depending on the grape variety, climate, and *terroir*.
+A closely related factor is **yield** — the number of liters produced per hectare. Many techniques used to improve quality directly reduce the yield. The higher the yield, the more wine a grower can produce, but often at the cost of concentration. While many appellations allow yields between 60 and 80 hectoliters per hectare, premium wines often limit themselves to **35 to 50 hectoliters** to ensure depth and character. This, of course, varies depending on the grape variety, climate, and _terroir_.
 
 ## 2. Vinification and Aging
 

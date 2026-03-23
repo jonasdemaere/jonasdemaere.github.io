@@ -19,7 +19,7 @@ The first hurdle is determining the actual cost of production. This depends heav
 The price disparity in raw materials is staggering. For instance:
 
 - **Grapes:** A kilogram of grapes from top-tier **Champagne** vineyards can easily cost **€7**, whereas a kilogram from **La Mancha, Spain**, might cost as little as **€0.20**.
-- **Land:** A hectare of vineyard in a remote corner of Southern France might sell for **€3,000**, while prime *Grand Cru* land in Champagne can exceed **€800,000**.
+- **Land:** A hectare of vineyard in a remote corner of Southern France might sell for **€3,000**, while prime _Grand Cru_ land in Champagne can exceed **€800,000**.
 
 **Yield and Vinification** also play a role. Lower yields per hectare result in more concentrated — and expensive — wine. In the cellar, a wine fermented quickly in concrete vats and bottled immediately costs a fraction of a wine aged in new oak. A 300-liter barrel made of superior **French oak** can cost **€750**, while a Slovenian alternative is often half that price. Producers looking for "oak flavor" on a budget can even opt for oak chips, costing a mere **€50** for the equivalent volume of wine.
 

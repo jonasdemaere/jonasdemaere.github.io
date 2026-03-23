@@ -4,7 +4,41 @@
 # Note: some wineries may have been visited multiple times, but only the most recent visit is listed here
 # Regions should correspond to wine region names such as denominated origins, not provinces, or municipalities.
 
-# --- Belgium ---
+- name: "Domaine de la Grave"
+  country: "France"
+  region: "Bordeaux"
+  date_visited: "2003-07-10"
+  lat: 45.0550
+  lng: -0.5603
+
+- name: "Domaine de Coussergues"
+  country: "France"
+  region: "Languedoc"
+  date_visited: "2007-04-13"
+  lat: 43.3536
+  lng: 3.3636
+
+- name: "Noilly Prat"
+  country: "France"
+  region: "Languedoc"
+  date_visited: "2007-04-14"
+  lat: 43.3532
+  lng: 3.5323
+
+- name: "Les Celliers St Martin"
+  country: "France"
+  region: "Languedoc"
+  date_visited: "2007-04-16"
+  lat: 42.9905
+  lng: 2.9539
+
+- name: "Les Caves du Sieur d'Arques"
+  country: "France"
+  region: "Languedoc"
+  date_visited: "2007-04-17"
+  lat: 43.0551
+  lng: 2.2138
+
 - name: "Genoels-Elderen Wine Castle"
   country: "Belgium"
   region: "Limburg"
@@ -82,7 +116,6 @@
   lat: 50.800419
   lng: 5.288949
 
-# --- Hungary ---
 - name: "Winery Csetvei"
   country: "Hungary"
   region: "Mór"
@@ -90,7 +123,6 @@
   lat: 47.375531
   lng: 18.2165501
 
-# --- Spain (Rioja) ---
 - name: "Bodegas Campo Viejo"
   country: "Spain"
   region: "Rioja"
@@ -105,7 +137,6 @@
   lat: 42.5688228
   lng: -2.5907558
 
-# --- Ukraine ---
 - name: "Inkerman"
   country: "Ukraine"
   region: "Crimea"
@@ -120,7 +151,6 @@
   lat: 44.731831
   lng: 34.503742
 
-# --- Germany ---
 - name: "Von Winning Winery"
   country: "Germany"
   region: "Palatinate (Pfalz)"
@@ -128,13 +158,33 @@
   lat: 49.4106226
   lng: 8.1863799
 
-# --- Italy ---
+- name: "Pio Cesare"
+  country: "Italy"
+  region: "Piemonte"
+  date_visited: "2011-09-08"
+  lat: 44.7003
+  lng: 8.0357
+
+- name: "G.D. Vajra"
+  country: "Italy"
+  region: "Piemonte"
+  date_visited: "2011-09-08"
+  lat: 44.6157
+  lng: 7.9344
+
 - name: "I Fabbri"
   country: "Italy"
   region: "Chianti Classico DOCG"
   date_visited: "2013-12-29"
   lat: 43.62221
   lng: 10.669481
+
+- name: "Villa Trasqua"
+  country: "Italy"
+  region: "Tuscany"
+  date_visited: "2014-01-07"
+  lat: 43.4230
+  lng: 11.2150
 
 - name: "Cantina Bastianich"
   country: "Italy"
@@ -157,7 +207,6 @@
   lat: 45.948374
   lng: 13.463805
 
-# --- Germany (Mosel) ---
 - name: "Franzen"
   country: "Germany"
   region: "Mosel"
@@ -207,7 +256,6 @@
   lat: 49.972843
   lng: 7.056825
 
-# --- Champagne, France ---
 - name: "Champagne Caillez Lemaire"
   country: "France"
   region: "Champagne"
@@ -222,7 +270,6 @@
   lat: 48.9619
   lng: 4.0167
 
-# --- Belgium (Heuvelland) ---
 - name: "Domein Vidaigne"
   country: "Belgium"
   region: "Heuvelland, West Flanders"
@@ -237,7 +284,6 @@
   lat: 50.779897
   lng: 2.7745
 
-# --- Alsace, France ---
 - name: "Cave Jean Geiler"
   country: "France"
   region: "Alsace"
@@ -308,7 +354,6 @@
   lat: 48.2193617
   lng: 7.3634327
 
-# --- Greece ---
 - name: "Domaine Tselopos"
   country: "Greece"
   region: "Nemea, Peloponnese"
@@ -393,7 +438,6 @@
   lat: 37.80049
   lng: 22.663767
 
-# --- Alsace, France (continued) ---
 - name: "Maison Hugel"
   country: "France"
   region: "Alsace"
@@ -429,7 +473,6 @@
   lat: 48.125236
   lng: 7.281307
 
-# --- Champagne, France (continued) ---
 - name: "Champagne Moët et Chandon"
   country: "France"
   region: "Champagne"
@@ -444,7 +487,6 @@
   lat: 49.0538571
   lng: 4.0077952
 
-# --- The Netherlands ---
 - name: "Domein De Wijngaardsberg"
   country: "The Netherlands"
   region: "Mergelland"
@@ -459,7 +501,6 @@
   lat: 50.829555
   lng: 5.664277
 
-# --- Austria ---
 - name: "Weingut Feiler-Artinger"
   country: "Austria"
   region: "Rust, Burgenland"
@@ -467,7 +508,6 @@
   lat: 47.8011581
   lng: 16.6746661
 
-# --- Portugal ---
 - name: "Herdade do Esporão"
   country: "Portugal"
   region: "Alentejo"
@@ -489,7 +529,13 @@
   lat: 38.5181278
   lng: -9.0154333
 
-# --- Champagne, France (continued) ---
+- name: "Adega do Periquita"
+  country: "Portugal"
+  region: "Setúbal"
+  date_visited: "2015-02-13"
+  lat: 38.5180
+  lng: -9.0156
+
 - name: "Champagne Pierre Gimonnet et Fils"
   country: "France"
   region: "Champagne"
@@ -497,7 +543,6 @@
   lat: 48.998794
   lng: 3.9663972
 
-# --- Bordeaux, France ---
 - name: "Vignobles Ponty"
   country: "France"
   region: "Canon-Fronsac, Bordeaux"
@@ -519,7 +564,6 @@
   lat: 44.9240982
   lng: -0.2821775
 
-# --- Portugal (continued) ---
 - name: "Filipa Pato & William Wouters"
   country: "Portugal"
   region: "Bairrada DOC"
@@ -548,7 +592,6 @@
   lat: 41.179
   lng: -7.543
 
-# --- Champagne, France (continued) ---
 - name: "Canard-Duchêne"
   country: "France"
   region: "Champagne"
@@ -563,7 +606,6 @@
   lat: 49.074
   lng: 3.879
 
-# --- Ukraine ---
 - name: "Shabo"
   country: "Ukraine"
   region: "Odessa"
@@ -578,7 +620,6 @@
   lat: 46.462559
   lng: 30.75442
 
-# --- Belgium (continued) ---
 - name: "Château Bon Baron"
   country: "Belgium"
   region: "Namur"
@@ -614,7 +655,6 @@
   lat: 50.514406
   lng: 4.798794
 
-# --- Spain (Jerez) ---
 - name: "Gonzalez Byass"
   country: "Spain"
   region: "Jerez, Andalusia"
@@ -678,7 +718,6 @@
   lat: 36.7366981
   lng: -6.1272501
 
-# --- Bulgaria ---
 - name: "Bessa Valley"
   country: "Bulgaria"
   region: "Thracian Valley"
@@ -693,7 +732,6 @@
   lat: 42.0134
   lng: 24.8784
 
-# --- Portugal (Douro) ---
 - name: "Quinta da Gaivosa - Alves de Sousa Douro and Port Wines"
   country: "Portugal"
   region: "Douro DOC"
@@ -736,7 +774,6 @@
   lat: 41.222
   lng: -7.39
 
-# --- Bordeaux, France (year only) ---
 - name: "Château de Latresne"
   country: "France"
   region: "Bordeaux"
@@ -779,7 +816,6 @@
   lat: 45.0760296
   lng: -0.7435861
 
-# --- France (Burgundy / Rhône) ---
 - name: "Cellier Champollion"
   country: "France"
   region: "Burgundy"
@@ -801,7 +837,6 @@
   lat: 44.843569
   lng: -0.574777
 
-# --- Loire Valley, France ---
 - name: "Vignoble Blanchard - Domaine de la Proutière"
   country: "France"
   region: "Muscadet, Loire Valley"
@@ -809,7 +844,6 @@
   lat: 47.117877
   lng: -1.2922947
 
-# --- Italy (Tuscany) ---
 - name: "Marchesi Antinori"
   country: "Italy"
   region: "Chianti Classico DOCG"
@@ -831,7 +865,6 @@
   lat: 44.02926
   lng: 11.092696
 
-# --- Bulgaria (continued) ---
 - name: "Domaine Boyar"
   country: "Bulgaria"
   region: "Thracian Valley"
@@ -839,7 +872,6 @@
   lat: 42.66
   lng: 26.33
 
-# --- Bordeaux, France (continued) ---
 - name: "Planète Bordeaux"
   country: "France"
   region: "Bordeaux"
@@ -847,7 +879,6 @@
   lat: 44.874624
   lng: -0.399825
 
-# --- New Zealand ---
 - name: "Seifried Estate"
   country: "New Zealand"
   region: "Nelson"
@@ -866,15 +897,15 @@
   country: "New Zealand"
   region: "Marlborough"
   date_visited: "2017-04-04"
-  lat: -36.886035
-  lng: 174.659323
+  lat: -41.5200
+  lng: 173.9500
 
 - name: "Clos Marguerite"
   country: "New Zealand"
   region: "Marlborough"
   date_visited: "2017-04-04"
-  lat: 49.180186
-  lng: -2.082752
+  lat: -41.6770
+  lng: 174.0820
 
 - name: "Brancott Estate"
   country: "New Zealand"
@@ -883,7 +914,6 @@
   lat: -41.540145
   lng: 173.841003
 
-# --- Australia ---
 - name: "Jacob's Creek"
   country: "Australia"
   region: "Barossa Valley, South Australia"
@@ -902,8 +932,8 @@
   country: "Australia"
   region: "Barossa Valley, South Australia"
   date_visited: "2017-04-07"
-  lat: -33.889785
-  lng: 151.198335
+  lat: -34.5608
+  lng: 138.9377
 
 - name: "Château Tanunda"
   country: "Australia"
@@ -930,8 +960,8 @@
   country: "Australia"
   region: "Barossa Valley, South Australia"
   date_visited: "2017-04-10"
-  lat: -33.349334
-  lng: 149.572631
+  lat: -34.4906
+  lng: 139.0493
 
 - name: "Wolf Blass"
   country: "Australia"
@@ -944,8 +974,8 @@
   country: "Australia"
   region: "Barossa Valley, South Australia"
   date_visited: "2017-04-11"
-  lat: -26.624248
-  lng: 152.972907
+  lat: -32.3694
+  lng: 150.7033
 
 - name: "Kingston Estate Winery"
   country: "Australia"
@@ -954,7 +984,6 @@
   lat: -34.229591
   lng: 140.339751
 
-# --- Spain (Castile) ---
 - name: "Bodegas Montecastro"
   country: "Spain"
   region: "Ribera del Duero DO"
@@ -969,7 +998,6 @@
   lat: 43.325038
   lng: -1.988891
 
-# --- Hungary (continued) ---
 - name: "Szepsy Pince"
   country: "Hungary"
   region: "Tokaj"
@@ -1012,7 +1040,6 @@
   lat: 48.1740513
   lng: 21.3565771
 
-# --- Moldova ---
 - name: "Vulcănești Winery"
   country: "Moldova"
   region: "Cahul"
@@ -1020,7 +1047,6 @@
   lat: 45.6832246
   lng: 28.3990532
 
-# --- Bordeaux, France (continued) ---
 - name: "Villemaurine"
   country: "France"
   region: "Saint-Émilion, Bordeaux"
@@ -1049,7 +1075,13 @@
   lat: 44.8845214
   lng: -0.478322
 
-# --- Austria ---
+- name: "Joannes Protner"
+  country: "Slovenia"
+  region: "Podravje"
+  date_visited: "2017-07-26"
+  lat: 46.5683
+  lng: 15.6986
+
 - name: "Domäne Wachau"
   country: "Austria"
   region: "Wachau"
@@ -1057,7 +1089,6 @@
   lat: 48.3920656
   lng: 15.5273111
 
-# --- Bordeaux, France (continued) ---
 - name: "Château Fonréaud"
   country: "France"
   region: "Listrac-Médoc, Bordeaux"
@@ -1065,7 +1096,6 @@
   lat: 45.058259
   lng: -0.797217
 
-# --- Italy (Tuscany, continued) ---
 - name: "Fonte de' Medici"
   country: "Italy"
   region: "Chianti DOCG"
@@ -1080,7 +1110,6 @@
   lat: 43.557
   lng: 11.262
 
-# --- Spain (Catalonia) ---
 - name: "Família Torres"
   country: "Spain"
   region: "Penedès, Catalonia"
@@ -1102,7 +1131,6 @@
   lat: 41.4336955
   lng: 1.7968728
 
-# --- Bordeaux, France (continued) ---
 - name: "Château Kirwan"
   country: "France"
   region: "Margaux, Bordeaux"
@@ -1131,7 +1159,6 @@
   lat: 44.9305925
   lng: -0.1928082
 
-# --- Austria (continued) ---
 - name: "Weingut Lackner-Tinnacher"
   country: "Austria"
   region: "South Styria"
@@ -1146,7 +1173,6 @@
   lat: 46.787046
   lng: 15.477422
 
-# --- China ---
 - name: "Château Bolongbao"
   country: "China"
   region: "Fangshan, Beijing"
@@ -1158,16 +1184,15 @@
   country: "China"
   region: "Fangshan, Beijing"
   date_visited: "2018-05-12"
-  lat: 45.778192
-  lng: 4.794014
+  lat: 39.7200
+  lng: 116.1500
 
-# --- Austria (continued) ---
-- name: "Weinhof Zimmermann"
+- name: "Mayer am Pfarrplatz"
   country: "Austria"
-  region: "Burgenland"
+  region: "Wien"
   date_visited: "2018-06-10"
-  lat: 48.254172
-  lng: 16.306986
+  lat: 48.2464
+  lng: 16.3668
 
 - name: "Weingut Gebrüder Nittnaus"
   country: "Austria"
@@ -1183,7 +1208,6 @@
   lat: 47.821298
   lng: 16.544255
 
-# --- Bordeaux, France (continued) ---
 - name: "Domaine de la Dame Blanche"
   country: "France"
   region: "Bordeaux"
@@ -1191,7 +1215,6 @@
   lat: 44.393929
   lng: -0.041521
 
-# --- Italy (Puglia) ---
 - name: "Masseria Il Melograno"
   country: "Italy"
   region: "Puglia"
@@ -1213,7 +1236,6 @@
   lat: 40.783282
   lng: 17.237776
 
-# --- Italy (Sicily) ---
 - name: "Cantine Hermes"
   country: "Italy"
   region: "Sicilia DOC"
@@ -1228,7 +1250,6 @@
   lat: 37.5967
   lng: 12.9728
 
-# --- Switzerland ---
 - name: "Les Celliers de Sion"
   country: "Switzerland"
   region: "Valais AOC"
@@ -1236,7 +1257,6 @@
   lat: 46.234
   lng: 7.37
 
-# --- United States (Maine) ---
 - name: "Maine Coast Vineyards"
   country: "United States"
   region: "Maine"
@@ -1244,7 +1264,6 @@
   lat: 43.74
   lng: -70.268
 
-# --- United States (Pacific Northwest) ---
 - name: "14 Hands Winery"
   country: "United States"
   region: "Columbia Valley, Washington"
@@ -1266,7 +1285,6 @@
   lat: 44.3
   lng: -123.302
 
-# --- California, USA ---
 - name: "Larson Family Winery"
   country: "United States"
   region: "Carneros, Sonoma"
@@ -1327,8 +1345,8 @@
   country: "United States"
   region: "Napa Valley, California"
   date_visited: "2019-11-20"
-  lat: 42.077319
-  lng: -71.676178
+  lat: 38.3872
+  lng: -122.2681
 
 - name: "Alpha Omega Winery"
   country: "United States"
@@ -1365,7 +1383,6 @@
   lat: 38.569961
   lng: -122.5546964
 
-# --- Italy (Tuscany, continued) ---
 - name: "Casa Vinicola Luigi Cecchi e Figli"
   country: "Italy"
   region: "Chianti Classico DOCG"
@@ -1387,7 +1404,6 @@
   lat: 43.533343
   lng: 11.246854
 
-# --- Bordeaux, France (continued) ---
 - name: "Château d'Arche"
   country: "France"
   region: "Sauternes, Bordeaux"
@@ -1416,7 +1432,6 @@
   lat: 45.2293874
   lng: -0.7877969
 
-# --- Croatia ---
 - name: "Meneghetti Wine Hotel & Winery"
   country: "Croatia"
   region: "Istria"
@@ -1424,7 +1439,6 @@
   lat: 45.0074875
   lng: 13.7449757
 
-# --- North Carolina, USA ---
 - name: "Childress Vineyards"
   country: "United States"
   region: "Yadkin Valley, North Carolina"
@@ -1432,15 +1446,13 @@
   lat: 35.842795
   lng: -80.28343
 
-# --- Mexico ---
 - name: "Viñedo San Miguel"
   country: "Mexico"
   region: "Guanajuato"
   date_visited: "2024-06-06"
-  lat: 29.350045
-  lng: -110.849228
+  lat: 20.9500
+  lng: -100.8000
 
-# --- California, USA (continued) ---
 - name: "Black Stallion Estate Winery"
   country: "United States"
   region: "Oak Knoll, Napa Valley"
@@ -1462,7 +1474,6 @@
   lat: 38.5044442
   lng: -122.4693466
 
-# --- Italy (Veneto) ---
 - name: "Bisol"
   country: "Italy"
   region: "Valdobbiadene Prosecco DOCG"
@@ -1470,7 +1481,6 @@
   lat: 45.8993319
   lng: 12.040383
 
-# --- China (Ningxia) ---
 - name: "Château Dulaan"
   country: "China"
   region: "Ningxia"
@@ -1492,7 +1502,6 @@
   lat: 38.32
   lng: 106.22
 
-# --- California, USA (Sonoma) ---
 - name: "Rodney Strong Vineyards"
   country: "United States"
   region: "Russian River Valley, Sonoma"
@@ -1542,7 +1551,6 @@
   lat: 38.487818
   lng: -122.8082995
 
-# --- Bulgaria (continued) ---
 - name: "Villa Yustina Winery"
   country: "Bulgaria"
   region: "Thracian Valley"
@@ -1550,7 +1558,6 @@
   lat: 42.0399229
   lng: 24.5189846
 
-# --- No date ---
 - name: "Dutton Ranch"
   country: "United States"
   region: "Russian River Valley, Sonoma"

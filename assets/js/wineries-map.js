@@ -18,6 +18,18 @@
     return;
   }
 
+  // Dynamic stats summary
+  var statsEl = document.getElementById("winery-stats");
+  if (statsEl) {
+    var count = wineries.length;
+    var countries = new Set(wineries.map(function (w) { return w.country; })).size;
+    var regions = new Set(wineries.map(function (w) { return w.region; })).size;
+    statsEl.innerHTML =
+      "<strong>" + count + " wineries visited</strong> across " +
+      "<strong>" + countries + " " + (countries === 1 ? "country" : "countries") + "</strong> and " +
+      "<strong>" + regions + " " + (regions === 1 ? "region" : "regions") + "</strong>.";
+  }
+
   // Determine dark mode
   var isDark = document.documentElement.getAttribute("data-theme") === "dark";
 
@@ -81,7 +93,7 @@
     map.invalidateSize();
   }, 100);
 
-  // Table row → map interaction
+  // Table row → map: pan to marker and open popup
   document.querySelectorAll("#wineries-table tbody tr").forEach(function (row) {
     row.style.cursor = "pointer";
     row.addEventListener("click", function () {
@@ -99,16 +111,10 @@
     });
   });
 
-  // Marker → table row highlight
+  // Map pin → open popup only (no table scroll or highlight)
   markers.forEach(function (m) {
     m.marker.on("click", function () {
-      document.querySelectorAll("#wineries-table tbody tr").forEach(function (r) {
-        r.classList.remove("table-active");
-        if (parseInt(r.getAttribute("data-index"), 10) === m.index) {
-          r.classList.add("table-active");
-          r.scrollIntoView({ block: "nearest", behavior: "smooth" });
-        }
-      });
+      m.marker.openPopup();
     });
   });
 
@@ -125,4 +131,57 @@
     });
     L.tileLayer(newUrl, { maxZoom: 19, attribution: attribution }).addTo(map);
   });
+
+  // Table sort & filter
+  var tbody = document.querySelector("#wineries-table tbody");
+  var allRows = Array.from(tbody.querySelectorAll("tr"));
+  var currentQuery = "";
+  var currentSort = { col: -1, asc: true };
+
+  function getCellText(row, col) {
+    return row.cells[col].textContent.trim().toLowerCase();
+  }
+
+  function render() {
+    var sorted = allRows.slice();
+    if (currentSort.col >= 0) {
+      sorted.sort(function (a, b) {
+        var aText = getCellText(a, currentSort.col);
+        var bText = getCellText(b, currentSort.col);
+        if (aText < bText) return currentSort.asc ? -1 : 1;
+        if (aText > bText) return currentSort.asc ? 1 : -1;
+        return 0;
+      });
+    }
+    sorted.forEach(function (row) {
+      tbody.appendChild(row);
+      var text = row.textContent.toLowerCase();
+      row.style.display = currentQuery && !text.includes(currentQuery) ? "none" : "";
+    });
+    document.querySelectorAll("#wineries-table thead th").forEach(function (th, i) {
+      var icon = th.querySelector(".sort-icon");
+      if (!icon) return;
+      icon.textContent = i === currentSort.col ? (currentSort.asc ? "↑" : "↓") : "↕";
+    });
+  }
+
+  document.querySelectorAll("#wineries-table thead th").forEach(function (th, i) {
+    th.addEventListener("click", function () {
+      if (currentSort.col === i) {
+        currentSort.asc = !currentSort.asc;
+      } else {
+        currentSort.col = i;
+        currentSort.asc = true;
+      }
+      render();
+    });
+  });
+
+  var filterInput = document.getElementById("winery-filter");
+  if (filterInput) {
+    filterInput.addEventListener("input", function () {
+      currentQuery = filterInput.value.toLowerCase();
+      render();
+    });
+  }
 })();

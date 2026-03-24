@@ -258,6 +258,171 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-tv-interview-verkiezing-beste-belgische-wijn-tv-oost",
+          title: 'TV Interview: Verkiezing Beste Belgische Wijn, TV-Oost',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2010-09-16-verkiezing-beste-belgische-wijn-tv-oost/";
+            },},{id: "news-guest-appearance-econoshock-belgium",
+          title: 'Guest Appearance: Econoshock, Belgium',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2013-01-02-econoshock-guest-appearance/";
+            },},{id: "news-guest-author-campo-viejo-belgian-wino",
+          title: 'Guest Author: Campo Viejo, Belgian Wino',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2013-01-03-campo-viejo-belgian-wino/";
+            },},{id: "news-guest-author-bodega-ysios-belgian-wino",
+          title: 'Guest Author: Bodega Ysios, Belgian Wino',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2013-01-04-bodega-ysios-belgian-wino/";
+            },},{id: "news-columnist-good-wine-magazine-ukraine-2013-2014",
+          title: 'Columnist, Good Wine Magazine (Ukraine), 2013–2014',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2013-01-05-good-wine-magazine-columnist/";
+            },},{id: "news-tv-interview-commentaar-op-het-oogstjaar-2013-vtm-nieuws",
+          title: 'TV Interview: Commentaar op het oogstjaar 2013, VTM Nieuws',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2013-09-15-vtm-oogstjaar-2013/";
+            },},{id: "news-dissertation-do-expert-tasters-evaluate-wines-consistently-weinakademiker",
+          title: 'Dissertation: Do Expert Tasters Evaluate Wines Consistently? (Weinakademiker)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-01-weinakademiker-dissertation/";
+            },},{id: "news-author-vino-fest-ukrainian-wine-magazine",
+          title: 'Author: Vino Fest, Ukrainian Wine Magazine',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-02-vino-fest-ukrainian-wine-magazine/";
+            },},{id: "news-guest-author-griekenland-zon-zee-en-wijn-belgian-wino",
+          title: 'Guest Author: Griekenland — Zon, Zee en... Wijn, Belgian Wino',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-03-griekenland-belgian-wino/";
+            },},{id: "news-guest-author-the-drinkalsace-experience-belgian-wino",
+          title: 'Guest Author: The #DrinkAlsace Experience, Belgian Wino',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-04-drink-alsace-belgian-wino/";
+            },},{id: "news-featured-in-het-nieuwsblad-leerlingen-serveren-belgische-wijn",
+          title: 'Featured in Het Nieuwsblad: Leerlingen serveren Belgische wijn',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-05-leerlingen-belgische-wijn-nieuwsblad/";
+            },},{id: "news-quoted-in-wijnkanaal-be-is-een-wijndomein-in-ons-land-leefbaar",
+          title: 'Quoted in Wijnkanaal.be: Is een wijndomein in ons land leefbaar?',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-06-wijndomein-leefbaar-wijnkanaal/";
+            },},{id: "news-quoted-in-tijd-be-vlaamse-wijnen-werken-aan-wederopstanding",
+          title: 'Quoted in Tijd.be: Vlaamse wijnen werken aan wederopstanding',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-07-vlaamse-wijnen-wederopstanding-tijd/";
+            },},{id: "news-preface-wijnbouwers-in-belgie-het-verhaal-achter-de-belgische-wijn-dirk-de-mesmaeker",
+          title: 'Preface, Wijnbouwers in Belgie — Het verhaal achter de Belgische wijn (Dirk De...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-08-wijnbouwers-belgie-preface/";
+            },},{id: "news-presentation-the-niche-in-the-market-wbis-munich",
+          title: 'Presentation: The Niche in the Market, WBIS Munich',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2014-01-09-wbis-munich-presentation/";
+            },},{id: "news-tv-interview-proeven-van-belgische-wijnen-atv",
+          title: 'TV Interview: Proeven van Belgische wijnen, ATV',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2015-01-01-proeven-belgische-wijnen-atv/";
+            },},{id: "news-featured-in-gazet-van-antwerpen-eigen-wijn-eerst-aan-oudevaartplaats",
+          title: 'Featured in Gazet Van Antwerpen: Eigen wijn eerst aan Oudevaartplaats',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2015-01-02-eigen-wijn-oudevaartplaats/";
+            },},{id: "news-featured-in-winetasting-be-belgian-wines-bar-opens-in-antwerp",
+          title: 'Featured in Winetasting.be: Belgian Wines Bar Opens in Antwerp',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2015-07-30-winetasting-belgian-wines-bar/";
+            },},{id: "news-featured-in-meersmaak-be-belgian-wines",
+          title: 'Featured in Meersmaak.be: Belgian Wines',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2015-01-03-belgian-wines-meersmaak/";
+            },},{id: "news-preface-wijn-van-eigen-bodem-peter-doomen",
+          title: 'Preface, Wijn Van Eigen Bodem (Peter Doomen)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2016-01-01-wijn-van-eigen-bodem-preface/";
+            },},{id: "news-author-de-kersttips-van-sommelier-jonas-de-maere-bordeaux-com",
+          title: 'Author: De Kersttips van sommelier Jonas De Maere, Bordeaux.com',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2016-01-02-kersttips-bordeaux-com/";
+            },},{id: "news-mentioned-in-wijnkronieken-wijn-van-eigen-bodem",
+          title: 'Mentioned in Wijnkronieken: Wijn van eigen bodem',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2016-05-11-wijnkronieken-wijn-van-eigen-bodem/";
+            },},{id: "news-quoted-in-knack-belgische-wijnen-en-bubbels-hebben-ze-een-toekomst",
+          title: 'Quoted in Knack: Belgische wijnen en bubbels, hebben ze een toekomst?',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2017-01-01-belgische-wijnen-knack/";
+            },},{id: "news-quot-very-39-import-39-ant-wine-import-manager-quot",
+          title: '&amp;quot;Very &amp;#39;Import&amp;#39;ant Wine Import Manager&amp;quot;',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2019-01-01-very-important-wine-import-manager/";
+            },},{id: "news-testimonial-vinexpo-bordeaux",
+          title: 'Testimonial, Vinexpo Bordeaux',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2019-01-02-vinexpo-bordeaux-testimonial/";
+            },},{id: "news-quoted-in-meininger-39-s-international-wine-quality-from-eastern-europe-at-wbwe",
+          title: 'Quoted in Meininger&amp;#39;s International: Wine Quality from Eastern Europe at WBWE',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2019-03-01-meiningers-eastern-europe-bulk-wine/";
+            },},{id: "news-tapping-into-the-source-retail-business-services-pilots-private-label-wine",
+          title: 'Tapping into The Source: Retail Business Services Pilots Private Label Wine',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2020-04-02-rbs-pilots-private-label-wine/";
+            },},{id: "news-wine-program-toasts-new-domestic-wines",
+          title: 'Wine Program Toasts New Domestic Wines',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2020-10-15-wine-program-toasts-domestic-wines/";
+            },},{id: "news-quot-the-rise-and-rise-of-sauvignon-blanc-in-the-global-marketplace-quot",
+          title: '&amp;quot;The Rise, and Rise, of Sauvignon Blanc in the Global Marketplace&amp;quot;',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2021-01-21-sauvignon-blanc-global-marketplace/";
+            },},{id: "news-adusa-39-s-artie-wine-wins-2021-best-new-product-award",
+          title: 'ADUSA&amp;#39;s Artie Wine Wins 2021 Best New Product Award',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2021-03-23-artie-wines-best-new-product-award/";
+            },},{id: "news-featured-on-ecrm-39-s-supplier-success-stories-page",
+          title: 'Featured on ECRM&amp;#39;s Supplier Success Stories Page',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-01-01-ecrm-supplier-success-stories/";
+            },},{id: "news-winewise-student-in-the-spotlight-amp-wset-testimonial",
+          title: 'WineWise: Student in the Spotlight &amp;amp; WSET Testimonial',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-01-02-winewise-spotlight-testimonial/";
+            },},{id: "news-the-org-vintaflow-founder-amp-ceo-profile",
+          title: 'The Org: Vintaflow — Founder &amp;amp; CEO Profile',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-09-03-the-org-vintaflow/";
             },},{id: "news-how-ahold-delhaize-usa-finds-the-latest-innovations-in-wine-beer-amp-spirits",
           title: 'How Ahold Delhaize USA Finds the Latest Innovations in Wine, Beer &amp;amp; Spirits...',
           description: "",
@@ -268,6 +433,21 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-10-31-linkedin-feature/";
+            },},{id: "news-quoted-in-vitisphere-on-private-label-wine-strategy-at-ahold-delhaize-usa",
+          title: 'Quoted in Vitisphere on Private-Label Wine Strategy at Ahold Delhaize USA',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-01-08-vitisphere-private-label-strategy/";
+            },},{id: "news-judging-panel-the-tasting-panel-39-s-best-hard-lemonade-feature",
+          title: 'Judging Panel: The Tasting Panel&amp;#39;s Best Hard Lemonade Feature',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-08-12-tasting-panel-hard-lemonade-judge/";
+            },},{id: "news-mentioned-in-vinetur-italian-wine-exports-to-u-s-plunge-as-tariffs-drive-up-retail-prices",
+          title: 'Mentioned in Vinetur: Italian Wine Exports to U.S. Plunge as Tariffs Drive Up...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-12-23-vinetur-wine-tariffs/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",

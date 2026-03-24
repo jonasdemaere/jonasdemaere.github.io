@@ -8,7 +8,7 @@ related_posts: false
 
 **ECRM** featured Jonas De Maere, PhD, alongside category managers from Ahold Delhaize USA, discussing how one of the country's largest grocery retailers discovers emerging trends in wine, beer, and spirits.
 
-[Watch the video on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7244006573675618306/)
+[Watch the video on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7244006573675618306/) &nbsp;|&nbsp; [Alternate link](https://www.linkedin.com/posts/ecrm_2_how-ahold-delhaize-usa-finds-the-latest-innovations-activity-7243977927514554368-Hudn)
 
 ---
 

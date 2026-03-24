@@ -77,13 +77,15 @@
   });
 
   // Fit map to all markers, then force a size recalculation
+  var initialBounds = null;
   if (markers.length > 0) {
     var group = L.featureGroup(
       markers.map(function (m) {
         return m.marker;
       })
     );
-    map.fitBounds(group.getBounds().pad(0.2));
+    initialBounds = group.getBounds().pad(0.2);
+    map.fitBounds(initialBounds);
   } else {
     map.setView([20, 0], 2);
   }
@@ -93,10 +95,19 @@
     map.invalidateSize();
   }, 100);
 
-  // Table row → map: pan to marker and open popup
+  // Table row → map: pan to marker and open popup; click again to reset
+  var activeRow = null;
   document.querySelectorAll("#wineries-table tbody tr").forEach(function (row) {
     row.style.cursor = "pointer";
     row.addEventListener("click", function () {
+      if (activeRow === row) {
+        // Deselect: zoom back out to full view
+        row.classList.remove("table-active");
+        activeRow = null;
+        map.closePopup();
+        if (initialBounds) map.fitBounds(initialBounds, { animate: true });
+        return;
+      }
       var idx = parseInt(row.getAttribute("data-index"), 10);
       var entry = markers.find(function (m) {
         return m.index === idx;
@@ -108,6 +119,7 @@
         r.classList.remove("table-active");
       });
       row.classList.add("table-active");
+      activeRow = row;
     });
   });
 

@@ -970,13 +970,6 @@
   lat: -34.441043
   lng: 139.032771
 
-- name: "Rosemount Estate"
-  country: "Australia"
-  region: "Barossa Valley, South Australia"
-  date_visited: "2017-04-11"
-  lat: -32.3694
-  lng: 150.7033
-
 - name: "Kingston Estate Winery"
   country: "Australia"
   region: "Riverland, South Australia"

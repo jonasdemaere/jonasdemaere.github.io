@@ -1,0 +1,30 @@
+---
+permalink: /llms.txt
+---
+# Jonas De Maere
+
+> Jonas De Maere, PhD, is the Founder and CEO of Vintaflow — a multi-echelon supply chain SaaS platform purpose-built for the alcoholic beverage industry. He has over a decade of hands-on experience across the global wine value chain: from running his own Belgian wine distribution company (BelgianWines), to wine buying and import operations for major retailers in Europe and the United States. He holds a PhD in Applied Economics (dissertation on corporate governance and boards of directors) and is based in Austin, Texas.
+
+His work sits at the intersection of data, strategy, and relationships — translating complex forecasting and inventory challenges into actionable solutions that improve service levels, unlock margin, and strengthen partnerships between producers, importers, distributors, and retailers.
+
+## About
+
+- [About](https://jonasdemaere.com/): Biography and professional summary
+- [CV](https://jonasdemaere.com/cv/): Full curriculum vitae — education, work history, skills, and languages
+- [Projects](https://jonasdemaere.com/projects/): Current and past projects including Vintaflow
+
+## Blog
+
+- [Blog](https://jonasdemaere.com/blog/): Articles on wine, supply chain, and data analytics
+- [News](https://jonasdemaere.com/news/): Latest updates and announcements
+
+## Wine
+
+- [Wineries](https://jonasdemaere.com/wineries/): Curated winery tracker with tasting notes and visit logs
+- [Books](https://jonasdemaere.com/books/): Wine and business books with reviews
+
+## Contact
+
+- [Contact](https://jonasdemaere.com/contact/): How to reach Jonas
+- [LinkedIn](https://www.linkedin.com/in/jonasdemaere): Professional network
+- [Vintaflow](https://vintaflow.com): Company website

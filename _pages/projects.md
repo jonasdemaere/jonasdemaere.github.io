@@ -7,6 +7,8 @@ nav: false
 nav_order: 4
 display_categories: [work, fun]
 horizontal: false
+published: false
+sitemap: false
 ---
 
 <!-- pages/projects.md -->

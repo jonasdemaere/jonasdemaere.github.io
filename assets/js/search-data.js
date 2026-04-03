@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/relaunch-personal-blog/";
           
         },
+      },{id: "post-sonoma-county-somm-camp-2025",
+        
+          title: "Sonoma County SOMM Camp 2025",
+        
+        description: "A diary of three days at SOMM Camp in Sonoma County — crossing borders between California and Australia",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/somm-camp-2025-crossing-borders/";
+          
+        },
       },{id: "post-griekenland-zon-zee-en-wijn",
         
           title: "Griekenland: zon, zee en … wijn",

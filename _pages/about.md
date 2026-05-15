@@ -7,6 +7,7 @@ subtitle: CEO, Vintaflow LLC
 profile:
   align: right
   image: jonas-de-maere.jpg
+  alt: Jonas De Maere, founder of Vintaflow and wine supply chain strategist
   image_circular: False # crops the image to make it circular
   more_info: >
     <p>Austin, Texas</p>
@@ -51,8 +52,55 @@ latest_posts:
       },
       "alumniOf": {
         "@type": "CollegeOrUniversity",
-        "name": "Ghent University"
+        "name": "University of Antwerp"
       },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "PhD in Applied Economics",
+          "credentialCategory": "degree",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Antwerp"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "WSET Certified Educator",
+          "credentialCategory": "certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Wine and Spirits Education Trust"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "WSET Level 4 in Wines and Spirits",
+          "credentialCategory": "certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Wine and Spirits Education Trust"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Certificate in Artificial Intelligence: Implications for Business Strategy",
+          "credentialCategory": "certificate",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "MIT Sloan School of Management"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Certificate in Interpersonal Communication: Strategies for Executives",
+          "credentialCategory": "certificate",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "MIT Sloan School of Management"
+          }
+        }
+      ],
       "description": "Jonas De Maere, PhD, is a wine supply chain strategist and entrepreneur with over a decade of experience across the global wine value chain. He is Founder and CEO of Vintaflow and has held wine buying and import roles for major retailers in Europe and the United States.",
       "knowsAbout": [
         "wine supply chain",

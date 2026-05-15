@@ -2,6 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
+description: Articles by Jonas De Maere on wine, supply chain strategy, data, sourcing, logistics, and the alcoholic beverage industry.
 nav: true
 nav_order: 3
 pagination:

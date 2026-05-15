@@ -2,6 +2,7 @@
 layout: page
 permalink: /contact/
 title: contact
+description: Contact Jonas De Maere for wine industry, supply chain, Vintaflow, writing, judging, and speaking inquiries.
 nav: true
 nav_order: 6
 ---

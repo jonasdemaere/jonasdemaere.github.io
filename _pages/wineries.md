@@ -2,7 +2,7 @@
 layout: page
 title: wineries
 permalink: /wineries/
-description: A personal log of wineries I have visited around the world.
+description: A personal log of wineries Jonas De Maere has visited around the world, with regions, countries, visit dates, and an interactive map.
 nav: true
 nav_order: 5
 map: true

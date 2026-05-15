@@ -17,3 +17,11 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# Internal AI/agent instructions and editorial workflow
+CLAUDE.md
+AGENTS.md
+.github/agents/
+.github/copilot-instructions.md
+.github/instructions/
+_publishing/

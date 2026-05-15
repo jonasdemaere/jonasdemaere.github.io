@@ -50,5 +50,5 @@ There is a kind of wine culture emerging in Ningxia that is not trying to replic
 
 I hope it does.
 
-It was also good, as it always is, to share a judging table with people whose palates and judgement I trust. A few of my fellow judges at the 32nd edition: [Kateryna Yushchenko](https://judge.wine/), [Daniel Ercsey](https://www.instagram.com/daniel_ercsey/), and [Karina Aggarwal](https://www.instagram.com/gigglewater411/). Worth following if you are not already.
+It was also good, as it always is, to share a judging table with people whose palates and judgement I trust. A few of my fellow judges at the 32nd edition: [Kateryna Yushchenko](https://judge.wine/), [Daniel Ercsey](http://www.winesofa.eu/), and [Karina Aggarwal](https://www.instagram.com/gigglewater411/). Worth following if you are not already.
 

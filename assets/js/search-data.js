@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-relaunching-my-personal-blog",
+        },{id: "post-what-i-brought-home-from-ningxia",
+        
+          title: "What I Brought Home from Ningxia",
+        
+        description: "Judging at the 32nd Concours Mondial de Bruxelles in Yinchuan, and what a 2013 Syrah from a French-trained Chinese winemaker left behind.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/what-i-brought-home-from-ningxia/";
+          
+        },
+      },{id: "post-relaunching-my-personal-blog",
         
           title: "Relaunching my Personal blog",
         
@@ -264,12 +275,7 @@ ninja.data = [{
             window.location.href = "/blog/2009/wine-a-journey-beyond-the-glass/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-tv-interview-verkiezing-beste-belgische-wijn-tv-oost",
+      },{id: "news-tv-interview-verkiezing-beste-belgische-wijn-tv-oost",
           title: 'TV Interview: Verkiezing Beste Belgische Wijn, TV-Oost',
           description: "",
           section: "News",handler: () => {

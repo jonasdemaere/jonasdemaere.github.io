@@ -18,28 +18,28 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "blog",
-          description: "",
+          description: "Articles by Jonas De Maere on wine, supply chain strategy, data, sourcing, logistics, and the alcoholic beverage industry.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-appearances",
           title: "appearances",
-          description: "",
+          description: "Media mentions, judging panels, interviews, writing credits, and industry appearances by Jonas De Maere.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/appearances/";
           },
         },{id: "nav-wineries",
           title: "wineries",
-          description: "A personal log of wineries I have visited around the world.",
+          description: "A personal log of wineries Jonas De Maere has visited around the world, with regions, countries, visit dates, and an interactive map.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/wineries/";
           },
         },{id: "nav-contact",
           title: "contact",
-          description: "",
+          description: "Contact Jonas De Maere for wine industry, supply chain, Vintaflow, writing, judging, and speaking inquiries.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/contact/";

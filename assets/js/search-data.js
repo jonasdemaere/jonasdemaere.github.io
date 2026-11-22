@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-what-i-brought-home-from-ningxia",
+        },{id: "post-the-jensen-huang-effect-in-corporate-governance",
+        
+          title: "The Jensen Huang Effect in Corporate Governance",
+        
+        description: "NVIDIA&#39;s dismissal of Jensen Huang may reshape corporate governance in founder-led companies, as founders fill their boards with founder-like directors.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/the-jensen-huang-effect-in-corporate-governance/";
+          
+        },
+      },{id: "post-what-i-brought-home-from-ningxia",
         
           title: "What I Brought Home from Ningxia",
         

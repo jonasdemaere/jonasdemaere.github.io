@@ -30,15 +30,16 @@ My thesis is that founder-led companies will see a change in director profiles a
   <p class="text-muted small mb-2">
     I wrote the first draft of this piece by hand, on paper. The original is included below. The version above is the same text, just a little better worded.
   </p>
-  <iframe
-    src="{{ '/assets/pdf/2026-11-21-jensen-huang-effect-first-draft.pdf' | relative_url }}#view=FitH"
-    title="Handwritten first draft of The Jensen Huang Effect"
-    width="100%"
-    height="560"
-    loading="lazy"
-    style="max-width: 640px; border: 1px solid var(--global-divider-color); border-radius: 4px;"
-  ></iframe>
+  <a href="{{ '/assets/pdf/2026-11-21-jensen-huang-effect-first-draft.pdf' | relative_url }}" target="_blank" rel="noopener" style="display: inline-block;">
+    <img
+      src="{{ '/assets/img/posts/2026-11-21-jensen-huang-effect-first-draft.jpg' | relative_url }}"
+      alt="First page of the handwritten draft of The Jensen Huang Effect"
+      width="240"
+      loading="lazy"
+      style="border: 1px solid var(--global-divider-color); border-radius: 4px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);"
+    >
+  </a>
   <p class="text-muted small mt-1">
-    <a href="{{ '/assets/pdf/2026-11-21-jensen-huang-effect-first-draft.pdf' | relative_url }}" target="_blank" rel="noopener">Open the handwritten draft (PDF)</a>
+    <a href="{{ '/assets/pdf/2026-11-21-jensen-huang-effect-first-draft.pdf' | relative_url }}" target="_blank" rel="noopener">Open the handwritten draft (PDF, 2 pages)</a>
   </p>
 </div>

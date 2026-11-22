@@ -3,7 +3,8 @@ layout: post
 title: "The Jensen Huang Effect in Corporate Governance"
 date: 2026-11-21 12:00:00 -0600
 author: Jonas De Maere
-description: Why the dismissal of Jensen Huang at NVIDIA may change who founders invite onto their boards over the next decade.
+description: "NVIDIA's dismissal of Jensen Huang may reshape corporate governance in founder-led companies, as founders fill their boards with founder-like directors."
+keywords: Jensen Huang, NVIDIA, NVIDIA board of directors, corporate governance, founder-led companies, board of directors, independent directors, board capital, board composition, founder CEO, Jonas De Maere
 tags: corporate-governance board-of-directors nvidia founders board-capital
 categories: insights
 ---

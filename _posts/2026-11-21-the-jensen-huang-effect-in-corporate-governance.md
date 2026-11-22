@@ -18,7 +18,7 @@ Notably, the independent directors of NVIDIA's board get a lot of scrutiny by th
 
 ## Toward A Shift in Board Capital
 
-I argue that the profiles in the board of directors of founder-led firms, especially in technology, is about to change. I expect board capital (the set of human capital and social capital in a board) to change over the next decade. I will call this the Jensen Huang Effect.
+I argue that the profiles in the board of directors of founder-led firms, especially in technology, are about to change. I expect board capital (the set of human capital and social capital in a board) to change over the next decade. I will call this the Jensen Huang Effect.
 
 A large number of stakeholders (shareholders, employees, investors, customers, suppliers, government representatives) of NVIDIA have been vocal these past two weeks that they do not agree with the decision the board of directors has made. Although the board acted as you would expect a typical board to act, the question becomes whether the stakeholders are aligned with this decision.
 
@@ -28,7 +28,7 @@ My thesis is that founder-led companies will see a change in director profiles a
 
 <div class="first-draft mt-4">
   <p class="text-muted small mb-2">
-    I wrote the first draft of this piece by hand, on paper. The original is included below. The version above is the same text, just a little better worded.
+    I wrote the first draft of this piece by hand, on paper. The original draft is included below.
   </p>
   <a href="{{ '/assets/pdf/2026-11-21-jensen-huang-effect-first-draft.pdf' | relative_url }}" target="_blank" rel="noopener" style="display: inline-block;">
     <img
